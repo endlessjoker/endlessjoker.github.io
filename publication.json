@@ -1,0 +1,19 @@
+{
+  "timezone": "Asia/Shanghai",
+  "articles": [
+    {
+      "number": 1,
+      "slug": "reader-start",
+      "title": "我只是想读个 Markdown，怎么开始写 App 了？",
+      "summary": "从想读教材到自己写阅读器，先看看窗口、菜单和筛选框怎样共用一份 ReaderModel。",
+      "minutes": 8,
+      "article": "content/01-reader-start.md",
+      "publishAt": "2026-09-22T09:00:00+08:00",
+      "reviewedHash": "cb4c219418a1089304020b9ad5488b86ba55fce5c927cdc2852f69a8ac22eefa",
+      "files": [
+        "content/01-reader-start.md"
+      ],
+      "reviewedAt": "2026-09-22T08:23:12.529Z"
+    }
+  ]
+}

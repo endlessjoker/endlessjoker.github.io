@@ -1,0 +1,19 @@
+node_modules/
+site/.vitepress/cache/
+site/.vitepress/dist/
+site/generated/
+site/articles/
+site/labs/
+site/public/release.json
+site/public/examples/
+site/index.md
+site/roadmap.md
+.DS_Store
+.tools/
+.env*
+
+# Keep local editorial notes and unpublished manuscripts out of public history.
+AGENTS.md
+content/*
+!content/01-reader-start.md
+examples/
