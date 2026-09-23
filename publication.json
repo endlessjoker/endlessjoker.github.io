@@ -14,6 +14,132 @@
         "content/01-reader-start.md"
       ],
       "reviewedAt": "2026-09-22T08:23:12.529Z"
+    },
+    {
+      "number": 2,
+      "slug": "file-access",
+      "title": "我只是想记住上次打开的文件夹",
+      "summary": "打开过的教材下次还想接着读，存一个路径却不够，还得处理书签和文件访问的起止。",
+      "minutes": 9,
+      "article": "content/02-file-access.md",
+      "publishAt": "2026-09-23T21:00:00+08:00",
+      "reviewedHash": "f9e804504c9d2316d3f02d867edba5ecad652aab109165fa97f335c97b6262e3",
+      "files": [
+        "content/02-file-access.md"
+      ],
+      "reviewedAt": "2026-09-23T02:04:20.296Z"
+    },
+    {
+      "number": 3,
+      "slug": "loading-tasks",
+      "title": "都写进 Task 了，怎么还会卡？",
+      "summary": "从阅读器加载正文的代码，理清 MainActor、任务挂起、旧结果回写和取消的区别。",
+      "minutes": 12,
+      "article": "content/03-loading-tasks.md",
+      "publishAt": "2026-09-24T21:00:00+08:00",
+      "reviewedHash": "3610f2c9e643c9be6b65ebb004cbfbb8d0660f67d089f2fa2546c1870f93dba0",
+      "files": [
+        "content/03-loading-tasks.md"
+      ],
+      "reviewedAt": "2026-09-23T02:04:20.413Z"
+    },
+    {
+      "number": 4,
+      "slug": "webview-updates",
+      "title": "SwiftUI 一更新，网页就得重载吗？",
+      "summary": "把 SwiftUI 的视图更新、网页的正文排版和消息回传接起来，区分 revision 与视图身份。",
+      "minutes": 12,
+      "article": "content/04-webview-updates.md",
+      "publishAt": "2026-09-25T21:00:00+08:00",
+      "reviewedHash": "44e754118fda81b905c548709fb0645e0f4e7d6e6e0e92278e6d786e2ce83561",
+      "files": [
+        "content/04-webview-updates.md"
+      ],
+      "reviewedAt": "2026-09-23T02:04:20.481Z"
+    },
+    {
+      "number": 5,
+      "slug": "weak-and-lifetime",
+      "title": "weak 写上了，谁还在留着对象？",
+      "summary": "从网页与 Coordinator 的持有关系，看 weak、任务里的强引用和主动结束工作。",
+      "minutes": 12,
+      "article": "content/05-weak-and-lifetime.md",
+      "publishAt": "2026-09-26T21:00:00+08:00",
+      "reviewedHash": "4c410b4598b57394f9cb033aca92d84d9c68088ed190bac406c933098fe71ab6",
+      "files": [
+        "content/05-weak-and-lifetime.md"
+      ],
+      "reviewedAt": "2026-09-23T02:04:20.532Z"
+    },
+    {
+      "number": 6,
+      "slug": "search-debounce",
+      "title": "字还没打完，先别把整本书搜一遍",
+      "summary": "从全文搜索的 300 毫秒等待，讲防抖、取消、跨隔离传值，以及旧结果对应的查询词。",
+      "minutes": 12,
+      "article": "content/06-search-debounce.md",
+      "publishAt": "2026-09-27T21:00:00+08:00",
+      "reviewedHash": "ba0eaf9aad5b4906f97fce9c724222ddac4e6279e33276bdb8d7edcfe572e336",
+      "files": [
+        "content/06-search-debounce.md"
+      ],
+      "reviewedAt": "2026-09-23T02:04:20.581Z"
+    },
+    {
+      "number": 7,
+      "slug": "search-state",
+      "title": "搜索框不大，状态还挺多",
+      "summary": "把输入、请求和结果分清楚，用带关联值的枚举记录搜索进度，让旧条目使用它自己的查询词。",
+      "minutes": 12,
+      "article": "content/07-search-state.md",
+      "publishAt": "2026-09-28T21:00:00+08:00",
+      "reviewedHash": "dcd7fa8b5464258e945dc2c931226a78fe5bebd9caaa2dc245236571225b2d56",
+      "files": [
+        "content/07-search-state.md"
+      ],
+      "reviewedAt": "2026-09-23T02:04:20.633Z"
+    },
+    {
+      "number": 8,
+      "slug": "search-errors",
+      "title": "零条结果，也可能是一本都没读到",
+      "summary": "把 try? 隐藏的读取问题找回来，分清跳过、失败、取消与达到上限，让搜索保留部分结果及其原因。",
+      "minutes": 12,
+      "article": "content/08-search-errors.md",
+      "publishAt": "2026-09-29T21:00:00+08:00",
+      "reviewedHash": "0bf35368b18a93be5a6596af15a65617318023d213fcba5de89991b13cada79b",
+      "files": [
+        "content/08-search-errors.md"
+      ],
+      "reviewedAt": "2026-09-23T02:04:20.684Z"
+    },
+    {
+      "number": 9,
+      "slug": "search-dependencies",
+      "title": "为了看个错误提示，没必要真把文件弄坏",
+      "summary": "给搜索模型传入可替换的操作，分清闭包的保存、actor 隔离、真实扫描与预览替身各自负责的事。",
+      "minutes": 12,
+      "article": "content/09-search-dependencies.md",
+      "publishAt": "2026-09-30T21:00:00+08:00",
+      "reviewedHash": "3904ebd8fa95c20a7e33c4428caa65ba6f7dd7f3e9b0f58d6ac17db50260102d",
+      "files": [
+        "content/09-search-dependencies.md"
+      ],
+      "reviewedAt": "2026-09-23T02:04:20.754Z"
+    },
+    {
+      "number": 10,
+      "slug": "model-lifetime",
+      "title": "这个模型，到底该活多久？",
+      "summary": "从搜索页面的模型保存位置，理清 State、Bindable、视图身份与任务生命周期的区别。",
+      "minutes": 12,
+      "article": "content/10-model-lifetime.md",
+      "publishAt": "2026-10-01T21:00:00+08:00",
+      "reviewedHash": "caf3d58c447d170d0bf99b360a69d10b97117e57549b386cec3d2cac8c87d96e",
+      "files": [
+        "content/10-model-lifetime.md"
+      ],
+      "reviewedAt": "2026-09-23T02:04:20.879Z"
     }
   ]
 }

@@ -19,12 +19,12 @@ pnpm dev
 ## 发布一篇文章
 
 1. 在 `content/` 写文章，以已获作者授权的个人 epubBooks 项目或独立小例子为素材。公司内部项目和其他未授权的材料不得引用。补充代码可放在 `examples/`，不要求每篇文章附带实验。
-2. 准备公开时，在 `publication.json` 增加记录，日期使用 `YYYY-MM-DDT09:00:00+08:00`，每天最多一篇，初始 `reviewedHash` 为空。在 `.gitignore` 中为这篇文章添加例外；本地未公开的草稿保持忽略，不进入 Git 历史。
+2. 准备公开时，在 `publication.json` 增加记录，日期使用 `YYYY-MM-DDT21:00:00+08:00`，每天最多一篇，初始 `reviewedHash` 为空。在 `.gitignore` 中为这篇文章添加例外；本地未公开的草稿保持忽略，不进入 Git 历史。
 3. 核对代码、解释和来源，区分实际实现、假设的错误写法与真实经历。若文章包含配套代码，将文件登记在该文章的 `files` 列表中。
-4. 完成与改动相称的代码检查、`pnpm check` 和内容审阅，再执行 `pnpm review <slug> --verified`，记录内容哈希。检查过程不写成读者的验收任务。
+4. 完成与改动相称的代码检查、内容审阅及 `pnpm check && pnpm build`，再执行 `pnpm review <slug> --verified`，记录内容哈希。检查过程不写成读者的验收任务。
 5. 运行 `pnpm check && pnpm build`，预览后提交到本仓库并推送 `main`。
 
-GitHub Actions 每天北京时间 09:00 构建（UTC 01:00）。只有通过审阅、内容哈希未变化、且到达发布日期的文章进入网站和搜索。重复运行不提前发布。构建失败不会覆盖旧网站。
+GitHub Actions 每天北京时间 21:00 构建（UTC 13:00）。只有通过审阅、内容哈希未变化、且到达发布日期的文章进入网站和搜索。重复运行不提前发布。构建失败不会覆盖旧网站。
 
 GitHub 的定时任务可能延迟；可在 Actions → Publish daily chapter → Run workflow 手动补跑。公共仓库长期没有活动时，GitHub 可能停用定时任务，需要重新启用。没有下一篇备稿时，网站维持原内容。
 

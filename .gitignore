@@ -17,3 +17,14 @@ AGENTS.md
 content/*
 !content/01-reader-start.md
 examples/
+
+# Reviewed manuscripts scheduled for the public series.
+!content/02-file-access.md
+!content/03-loading-tasks.md
+!content/04-webview-updates.md
+!content/05-weak-and-lifetime.md
+!content/06-search-debounce.md
+!content/07-search-state.md
+!content/08-search-errors.md
+!content/09-search-dependencies.md
+!content/10-model-lifetime.md

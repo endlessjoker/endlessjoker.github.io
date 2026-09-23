@@ -49,7 +49,7 @@ features:
   - title: 跟着代码想一想
     details: 先看直觉上的写法，再顺着出错的地方，弄明白究竟发生了什么。
   - title: 按顺序逐步学习
-    details: 北京时间每天 09:00 发布已检查的备稿，没写完的就再等等。
+    details: 北京时间每天 21:00 发布已检查的备稿，没写完的就再等等。
 ---
 
 ## 最新更新
@@ -65,7 +65,11 @@ writeFileSync(path.join(site, 'index.md'), index);
 const rows = plan.articles.map(item => {
   const live = articles.some(a => a.slug === item.slug);
   const title = live ? `[${item.title}](/articles/${item.slug})` : item.title;
-  return `| ${item.number} | ${title} | ${item.publishAt.slice(0, 10)} 09:00 | ${live ? '已发布' : item.reviewedHash ? '已检查，待上线' : '准备中'} |`;
+  return `| ${item.number} | ${title} | ${item.publishAt.slice(0, 10)} ${item.publishAt.slice(11, 16)} | ${live ? '已发布' : item.reviewedHash ? '已检查，待上线' : '准备中'} |`;
 });
-writeFileSync(path.join(site, 'roadmap.md'), `# 章节与更新计划\n\n网站以北京时间为准，每天发布一篇已检查的备稿。定时服务可能有延迟；没有合格备稿时保持已有内容。\n\n| 篇目 | 主题 | 北京时间 | 状态 |\n|---|---|---|---|\n${rows.join('\n')}\n\n## 接下来研究什么\n\n- 刷新失败时，怎样保留已经显示的内容？\n- 多个页面需要同一份数据，谁来管理加载？\n- 缓存怎样限制容量，又怎样判断应该淘汰什么？\n- 怎样测量一次优化，而不是凭感觉判断快慢？\n\n这些主题尚未排入发布队列。完成独立写作和实验验证后，再安排日期。\n`);
+const series = JSON.parse(readFileSync(path.join(root, 'series-plan.json')));
+const future = series.chapters.filter(topic => !plan.articles.some(item => item.number === topic.number));
+const futureRows = future.map(topic => `| ${topic.number} | ${topic.title} | ${topic.focus} |`);
+writeFileSync(path.join(site, 'roadmap.md'), `# 章节与更新计划\n\n这一轮计划 ${series.totalChapters} 篇，目前 ${plan.articles.filter(item => item.reviewedHash).length} 篇已检查并排期，后续还有 ${future.length} 篇尚未排期。\n\n北京时间每天 21:00 发布一篇已检查的备稿。GitHub 定时服务可能延迟；没有合格备稿时保持已有内容。\n\n| 篇目 | 主题 | 北京时间 | 状态 |\n|---|---|---|---|\n${rows.join('\n')}\n\n## 后续写作安排\n\n| 篇目 | 暂定标题 | 主要内容 |\n|---|---|---|\n${futureRows.join('\n')}\n\n后续主题会随阅读器的实际开发调整，完成写作和检查后再安排上线日期。\n`);
+
 console.log(`Prepared ${articles.length} published articles; next: ${plan.articles[articles.length]?.publishAt ?? 'none'}.`);
