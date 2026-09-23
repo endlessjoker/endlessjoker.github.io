@@ -224,6 +224,20 @@
         "content/16-cache-budget.md"
       ],
       "reviewedAt": "2026-09-23T03:29:10.660Z"
+    },
+    {
+      "number": 17,
+      "slug": "stored-data-migration",
+      "title": "保存的数据，下一版还读得回来吗？",
+      "summary": "从阅读位置和笔记的恢复代码，拆开 Codable 解码、版本迁移、书签失效与失败后避免覆盖旧数据。",
+      "minutes": 11,
+      "article": "content/17-stored-data-migration.md",
+      "publishAt": "2026-10-08T21:00:00+08:00",
+      "reviewedHash": "495f6db127d24ff10a4f991d39f89bdc991d6e776a1e2b8056346185b1e1aeda",
+      "files": [
+        "content/17-stored-data-migration.md"
+      ],
+      "reviewedAt": "2026-09-23T03:35:16.027Z"
     }
   ]
 }

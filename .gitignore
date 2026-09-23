@@ -34,3 +34,4 @@ examples/
 !content/14-bounded-search.md
 !content/15-row-identity.md
 !content/16-cache-budget.md
+!content/17-stored-data-migration.md
