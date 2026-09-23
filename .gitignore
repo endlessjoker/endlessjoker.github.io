@@ -31,3 +31,4 @@ examples/
 !content/11-task-lifetime.md
 !content/12-observation.md
 !content/13-actor-reentrancy.md
+!content/14-bounded-search.md

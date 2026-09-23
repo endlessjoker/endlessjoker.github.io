@@ -182,6 +182,20 @@
         "content/13-actor-reentrancy.md"
       ],
       "reviewedAt": "2026-09-23T03:07:08.468Z"
+    },
+    {
+      "number": 14,
+      "slug": "bounded-search",
+      "title": "一次搜很多本书，也不能把任务开满",
+      "summary": "从逐本搜索改为每批四本，处理任务组的并发上限、结果顺序、部分失败和取消。",
+      "minutes": 12,
+      "article": "content/14-bounded-search.md",
+      "publishAt": "2026-10-05T21:00:00+08:00",
+      "reviewedHash": "908c299f0b38558836a390f33f1a84979bdfe0e37243f0b3f191002df5d033b8",
+      "files": [
+        "content/14-bounded-search.md"
+      ],
+      "reviewedAt": "2026-09-23T03:14:07.166Z"
     }
   ]
 }
