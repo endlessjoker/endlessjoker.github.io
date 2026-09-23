@@ -154,6 +154,20 @@
         "content/11-task-lifetime.md"
       ],
       "reviewedAt": "2026-09-23T02:19:56.020Z"
+    },
+    {
+      "number": 12,
+      "slug": "observation",
+      "title": "这个属性变了，为什么这里没刷新？",
+      "summary": "从阅读进度的显示位置，理清 Observation 的属性读取、ObservableObject 的对象通知，以及 MainActor 各管什么。",
+      "minutes": 10,
+      "article": "content/12-observation.md",
+      "publishAt": "2026-10-03T21:00:00+08:00",
+      "reviewedHash": "a4e155ba1756616269769e987193eb22b7f1879c879587413f7400274f1a149d",
+      "files": [
+        "content/12-observation.md"
+      ],
+      "reviewedAt": "2026-09-23T02:26:35.179Z"
     }
   ]
 }
