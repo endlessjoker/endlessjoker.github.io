@@ -210,6 +210,20 @@
         "content/15-row-identity.md"
       ],
       "reviewedAt": "2026-09-23T03:22:27.190Z"
+    },
+    {
+      "number": 16,
+      "slug": "cache-budget",
+      "title": "缓存一直留着，内存迟早不答应",
+      "summary": "对照阅读器现有的变化快照和目录索引，设计有容量、失效与淘汰规则的临时正文缓存。",
+      "minutes": 11,
+      "article": "content/16-cache-budget.md",
+      "publishAt": "2026-10-07T21:00:00+08:00",
+      "reviewedHash": "84a0ec4d734a898fc2a17e293f26fd872ffb2941b9ea98a05243b3cb62e3e64e",
+      "files": [
+        "content/16-cache-budget.md"
+      ],
+      "reviewedAt": "2026-09-23T03:29:10.660Z"
     }
   ]
 }
