@@ -30,3 +30,4 @@ examples/
 !content/10-model-lifetime.md
 !content/11-task-lifetime.md
 !content/12-observation.md
+!content/13-actor-reentrancy.md

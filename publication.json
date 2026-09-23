@@ -168,6 +168,20 @@
         "content/12-observation.md"
       ],
       "reviewedAt": "2026-09-23T02:26:35.179Z"
+    },
+    {
+      "number": 13,
+      "slug": "actor-reentrancy",
+      "title": "都放进 actor 了，怎么还会重复加载？",
+      "summary": "从阅读目录的两条扫描入口出发，解释 actor 重入，以及怎样在等待前登记进行中的任务来合并请求。",
+      "minutes": 12,
+      "article": "content/13-actor-reentrancy.md",
+      "publishAt": "2026-10-04T21:00:00+08:00",
+      "reviewedHash": "808d219f38dad4f275a3289ba5799cd7e6db9717e6ea0dc5c7d94a0164a34ba3",
+      "files": [
+        "content/13-actor-reentrancy.md"
+      ],
+      "reviewedAt": "2026-09-23T03:07:08.468Z"
     }
   ]
 }
