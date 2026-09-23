@@ -238,6 +238,20 @@
         "content/17-stored-data-migration.md"
       ],
       "reviewedAt": "2026-09-23T03:35:16.027Z"
+    },
+    {
+      "number": 18,
+      "slug": "performance-measurement",
+      "title": "这次到底快没快，不能只靠感觉",
+      "summary": "沿着阅读器打开正文的路径，分清总等待、主线程卡顿与内存增长，先测量再决定改哪里。",
+      "minutes": 11,
+      "article": "content/18-performance-measurement.md",
+      "publishAt": "2026-10-09T21:00:00+08:00",
+      "reviewedHash": "4c2c253053b9290454edfd95b56214b4d4e6b03e659af8b8736e02a725da7ff9",
+      "files": [
+        "content/18-performance-measurement.md"
+      ],
+      "reviewedAt": "2026-09-23T03:48:40.540Z"
     }
   ]
 }
