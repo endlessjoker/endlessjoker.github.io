@@ -140,6 +140,20 @@
         "content/10-model-lifetime.md"
       ],
       "reviewedAt": "2026-09-23T02:04:20.879Z"
+    },
+    {
+      "number": 11,
+      "slug": "task-lifetime",
+      "title": "页面关了，任务怎么还在跑？",
+      "summary": "从搜索弹窗关闭后的工作归属，分清视图任务、模型任务、detached worker 的取消与结果保留。",
+      "minutes": 12,
+      "article": "content/11-task-lifetime.md",
+      "publishAt": "2026-10-02T21:00:00+08:00",
+      "reviewedHash": "ba98e99249b7af248d07d9da10d580b267a62273c07c76504718748d5947a0b3",
+      "files": [
+        "content/11-task-lifetime.md"
+      ],
+      "reviewedAt": "2026-09-23T02:19:56.020Z"
     }
   ]
 }
