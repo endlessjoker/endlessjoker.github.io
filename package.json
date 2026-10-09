@@ -6,7 +6,7 @@
   "engines": { "node": ">=22" },
   "scripts": {
     "dev": "node scripts/prepare.mjs && vitepress dev site --host 127.0.0.1",
-    "check": "node --test scripts/publication.test.mjs && node scripts/check.mjs",
+    "check": "node --test scripts/*.test.mjs && node scripts/check.mjs",
     "build": "node scripts/prepare.mjs && vitepress build site",
     "preview": "vitepress preview site --host 127.0.0.1",
     "review": "node scripts/review.mjs"

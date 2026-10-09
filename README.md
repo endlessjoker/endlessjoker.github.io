@@ -37,3 +37,10 @@ GitHub 的定时任务可能延迟；可在 Actions → Publish daily chapter �
 `site/public/release.json` 由构建生成，记录最近构建时间及上线文章，供发布检查使用。
 
 技术更正应修改原文、重跑实验、更新审阅哈希并推送；不自动新增当天的章节。
+
+
+## CNN 与生物视觉接续排期
+
+SwiftUI 第十八篇之后接续 13 篇 CNN 与生物视觉，2026-10-10 至 2026-10-22 每天北京时间 21:00 发布。素材位于 `content/assets/`，必须纳入文章的 `files` 校验清单；构建只复制已到发布日期的素材。
+
+交互算例检查：`node --test scripts/cnn-vision-*.test.mjs`。

@@ -252,6 +252,194 @@
         "content/18-performance-measurement.md"
       ],
       "reviewedAt": "2026-09-23T03:48:40.540Z"
+    },
+    {
+      "number": 19,
+      "slug": "cnn-vision-01",
+      "title": "视觉为什么要压低自己的响应",
+      "summary": "从侧抑制与除法归一化出发，区分视觉编码、工程启发和神经保护的证据。",
+      "minutes": 15,
+      "article": "content/19-cnn-vision-01.md",
+      "publishAt": "2026-10-10T21:00:00+08:00",
+      "reviewedHash": "22f0f4e8ec15e85d322a5c645a8edc8a9c41df1691d9d7c4618d059bbcc8f8e1",
+      "files": [
+        "content/19-cnn-vision-01.md",
+        "content/assets/cnn-vision-01/lrn-neighborhood.svg",
+        "content/assets/cnn-vision-01/gray-context.svg",
+        "content/assets/cnn-vision-01/demo.html"
+      ],
+      "reviewedAt": "2026-10-09T11:06:06.996Z"
+    },
+    {
+      "number": 20,
+      "slug": "cnn-vision-02",
+      "title": "从方向选择性到卷积核之间还有多远",
+      "summary": "从方向选择性走到权重共享，用平移实验检查卷积的设计取舍。",
+      "minutes": 10,
+      "article": "content/20-cnn-vision-02.md",
+      "publishAt": "2026-10-11T21:00:00+08:00",
+      "reviewedHash": "5c290a89f5e528b304ff52c1d5ecf9e4d319057e82fde3086f06262315c9d9f7",
+      "files": [
+        "content/20-cnn-vision-02.md",
+        "content/assets/cnn-vision-02/orientation-filter.svg",
+        "content/assets/cnn-vision-02/demo.html"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.028Z"
+    },
+    {
+      "number": 21,
+      "slug": "cnn-vision-03",
+      "title": "池化究竟丢掉了什么",
+      "summary": "用可操作的采样实验，拆开池化、混叠与信息损失。",
+      "minutes": 6,
+      "article": "content/21-cnn-vision-03.md",
+      "publishAt": "2026-10-12T21:00:00+08:00",
+      "reviewedHash": "44d458080b2465bc98b46b0ac2e32a11118ff3bac4f219f374df04364778c0e8",
+      "files": [
+        "content/21-cnn-vision-03.md",
+        "content/assets/cnn-vision-03/demo.html"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.062Z"
+    },
+    {
+      "number": 22,
+      "slug": "cnn-vision-04",
+      "title": "CNN 学会读脑电以后知道了什么",
+      "summary": "从脑电解码追问：预测成功究竟证明了什么。",
+      "minutes": 6,
+      "article": "content/22-cnn-vision-04.md",
+      "publishAt": "2026-10-13T21:00:00+08:00",
+      "reviewedHash": "e5beecda56a7c652aa1a7aaa4b334fb7853ea129973f66948956d1a6be41b977",
+      "files": [
+        "content/22-cnn-vision-04.md"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.098Z"
+    },
+    {
+      "number": 23,
+      "slug": "cnn-vision-05",
+      "title": "认出了猫，就看懂了形状吗？",
+      "summary": "纹理与形状的分歧，怎样暴露识别模型使用的线索。",
+      "minutes": 6,
+      "article": "content/23-cnn-vision-05.md",
+      "publishAt": "2026-10-14T21:00:00+08:00",
+      "reviewedHash": "cd5b296b21da958cf2099996baf1a32098187932f2c55fb643c3b800ab56b86d",
+      "files": [
+        "content/23-cnn-vision-05.md"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.129Z"
+    },
+    {
+      "number": 24,
+      "slug": "cnn-vision-06",
+      "title": "脑电降噪怎样改变我们看到的证据",
+      "summary": "降噪如何改变脑电信号，也改变研究者能够提出的结论。",
+      "minutes": 6,
+      "article": "content/24-cnn-vision-06.md",
+      "publishAt": "2026-10-15T21:00:00+08:00",
+      "reviewedHash": "50b8488ed54985ec68e22f042925a180479e9ff3608c11b1f6e0d1043319385d",
+      "files": [
+        "content/24-cnn-vision-06.md"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.160Z"
+    },
+    {
+      "number": 25,
+      "slug": "cnn-vision-07",
+      "title": "脑机接口里的两个学习者",
+      "summary": "当人和解码器同时学习，怎样理解反馈与控制。",
+      "minutes": 6,
+      "article": "content/25-cnn-vision-07.md",
+      "publishAt": "2026-10-16T21:00:00+08:00",
+      "reviewedHash": "bd65c77147952eab6c9b94e3116be69b79906fc6ba001a9d7168507edb1f2281",
+      "files": [
+        "content/25-cnn-vision-07.md"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.191Z"
+    },
+    {
+      "number": 26,
+      "slug": "cnn-vision-08",
+      "title": "为什么昨天能用的脑机接口今天失灵了",
+      "summary": "从跨天失效理解校准、分布变化与泛化。",
+      "minutes": 6,
+      "article": "content/26-cnn-vision-08.md",
+      "publishAt": "2026-10-17T21:00:00+08:00",
+      "reviewedHash": "08e63a3c467cec2b357fefc9700dce34210bd37981ff69cdf35cc53388c4ff83",
+      "files": [
+        "content/26-cnn-vision-08.md"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.224Z"
+    },
+    {
+      "number": 27,
+      "slug": "cnn-vision-09",
+      "title": "为什么看电影不能只靠逐帧识图",
+      "summary": "运动知觉为何需要时间结构，而不仅是连续的图片。",
+      "minutes": 6,
+      "article": "content/27-cnn-vision-09.md",
+      "publishAt": "2026-10-18T21:00:00+08:00",
+      "reviewedHash": "8bea28346bbc98462f92fce2d488a9ad9c169b5615b6c1c0ce979723546dfd1e",
+      "files": [
+        "content/27-cnn-vision-09.md"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.255Z"
+    },
+    {
+      "number": 28,
+      "slug": "cnn-vision-10",
+      "title": "眼睛为什么不停地动",
+      "summary": "从眼跳与注视理解主动采样，以及它与注意力的差别。",
+      "minutes": 6,
+      "article": "content/28-cnn-vision-10.md",
+      "publishAt": "2026-10-19T21:00:00+08:00",
+      "reviewedHash": "7dc911bfafc1f93c249556db8c765fe77575972357c164b04c45899e87ad1246",
+      "files": [
+        "content/28-cnn-vision-10.md"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.288Z"
+    },
+    {
+      "number": 29,
+      "slug": "cnn-vision-11",
+      "title": "看不清时视觉系统怎样重新检查证据",
+      "summary": "遮挡与模糊出现时，递归处理如何重新检查证据。",
+      "minutes": 6,
+      "article": "content/29-cnn-vision-11.md",
+      "publishAt": "2026-10-20T21:00:00+08:00",
+      "reviewedHash": "59b4b8128d794be1f5b2a55360f4e47739e716f24678d1623fc28f770a4ae1a4",
+      "files": [
+        "content/29-cnn-vision-11.md"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.319Z"
+    },
+    {
+      "number": 30,
+      "slug": "cnn-vision-12",
+      "title": "看见的细节有多少来自猜测",
+      "summary": "先验如何补齐视觉信息，又为何可能生成并不存在的细节。",
+      "minutes": 6,
+      "article": "content/30-cnn-vision-12.md",
+      "publishAt": "2026-10-21T21:00:00+08:00",
+      "reviewedHash": "8c7b2b80b41384c5b52513e9141889876f8c809eae35cde0aff4ad6a9f2651a1",
+      "files": [
+        "content/30-cnn-vision-12.md"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.351Z"
+    },
+    {
+      "number": 31,
+      "slug": "cnn-vision-13",
+      "title": "电影院里清楚舒服与安全是三个问题",
+      "summary": "把屏幕大小、亮度与立体观看放回清晰度、舒适度和安全的不同问题中。",
+      "minutes": 6,
+      "article": "content/31-cnn-vision-13.md",
+      "publishAt": "2026-10-22T21:00:00+08:00",
+      "reviewedHash": "e61d1e4e5fe1af5cebb85ec931e5bab447a2acc56025b0e3a128b6e088114e77",
+      "files": [
+        "content/31-cnn-vision-13.md"
+      ],
+      "reviewedAt": "2026-10-09T11:06:07.383Z"
     }
   ]
 }

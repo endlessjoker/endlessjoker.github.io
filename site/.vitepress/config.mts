@@ -19,7 +19,8 @@ export default defineConfig({
     ],
     sidebar: [
       { text: '阅读指南', items: [{ text: '从这里开始', link: '/reading' }, { text: '章节与更新计划', link: '/roadmap' }] },
-      { text: '已发布章节', items: release.articles.map((a: any) => ({ text: `${a.number}. ${a.title}`, link: `/articles/${a.slug}` })) }
+      { text: 'SwiftUI 实用开发', items: release.articles.filter((a: any) => a.number <= 18).map((a: any) => ({ text: `${a.number}. ${a.title}`, link: `/articles/${a.slug}` })) },
+      ...(release.articles.some((a: any) => a.number > 18) ? [{ text: 'CNN 与生物视觉', items: release.articles.filter((a: any) => a.number > 18).map((a: any) => ({ text: `${a.number - 18}. ${a.title}`, link: `/articles/${a.slug}` })) }] : [])
     ],
     outline: { label: '本页内容', level: [2, 3] },
     docFooter: { prev: '上一篇', next: '下一篇' },
