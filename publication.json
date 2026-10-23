@@ -510,6 +510,62 @@
         "content/36-ai-roots-05.md"
       ],
       "reviewedAt": "2026-10-23T06:36:27.420Z"
+    },
+    {
+      "number": 37,
+      "slug": "ai-roots-06",
+      "title": "ViT：图片为什么也能当作一串输入",
+      "summary": "从切块、投影到位置编码，逐步核对图片变成序列后的尺寸与计算代价。",
+      "minutes": 8,
+      "article": "content/37-ai-roots-06.md",
+      "publishAt": "2026-10-28T21:00:00+08:00",
+      "reviewedHash": "c4217b11b999c603faed3786f0c22ae8bd169ff75574761f0a907a23ef9a7560",
+      "files": [
+        "content/37-ai-roots-06.md"
+      ],
+      "reviewedAt": "2026-10-23T08:37:01.362Z"
+    },
+    {
+      "number": 38,
+      "slug": "ai-roots-07",
+      "title": "CLIP：图片和文字怎样配成一对",
+      "summary": "用三组图文的配对表，解释对比训练、零样本分类与相似度的边界。",
+      "minutes": 8,
+      "article": "content/38-ai-roots-07.md",
+      "publishAt": "2026-10-29T21:00:00+08:00",
+      "reviewedHash": "ed9bdff954579f0bc6019b1f16820d4fec33d086bec32dd3212884e126a654d8",
+      "files": [
+        "content/38-ai-roots-07.md"
+      ],
+      "reviewedAt": "2026-10-23T08:37:01.405Z"
+    },
+    {
+      "number": 39,
+      "slug": "ai-roots-08",
+      "title": "扩散模型到底在去掉什么",
+      "summary": "从一次加噪和噪声预测开始，说明训练怎样支持从随机数生成新图。",
+      "minutes": 8,
+      "article": "content/39-ai-roots-08.md",
+      "publishAt": "2026-10-30T21:00:00+08:00",
+      "reviewedHash": "afbf2571aefd6bd2c4169743e0f34657dab7609a9720a3c5e3a66e676592a687",
+      "files": [
+        "content/39-ai-roots-08.md"
+      ],
+      "reviewedAt": "2026-10-23T08:37:01.438Z"
+    },
+    {
+      "number": 40,
+      "slug": "ai-roots-09",
+      "title": "潜空间扩散与 SDXL：文字在哪里影响画面",
+      "summary": "把潜空间、跨注意力、CFG 和 SDXL 接起来，弄清文字怎样进入去噪过程。",
+      "minutes": 10,
+      "article": "content/40-ai-roots-09.md",
+      "publishAt": "2026-10-31T21:00:00+08:00",
+      "reviewedHash": "01b55b9c5ddd3f7a7f375d19c25acf511d61ed6e91cd39804cf0a010d239874b",
+      "files": [
+        "content/40-ai-roots-09.md"
+      ],
+      "reviewedAt": "2026-10-23T08:37:01.471Z"
     }
   ]
 }
