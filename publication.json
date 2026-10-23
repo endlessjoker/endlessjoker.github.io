@@ -622,6 +622,76 @@
         "content/44-ai-roots-13.md"
       ],
       "reviewedAt": "2026-10-23T08:52:26.929Z"
+    },
+    {
+      "number": 45,
+      "slug": "ai-roots-14",
+      "title": "从思维链到推理训练：多想几步到底改变了什么",
+      "summary": "用分步作答、多次采样和训练反馈，区分推理时多算与参数真正更新。",
+      "minutes": 8,
+      "article": "content/45-ai-roots-14.md",
+      "publishAt": "2026-11-05T21:00:00+08:00",
+      "reviewedHash": "e9a4485e087e18fbedab09c092fd0ba2c645e0d644569883b3334363bccc414a",
+      "files": [
+        "content/45-ai-roots-14.md"
+      ],
+      "reviewedAt": "2026-10-23T09:54:01.674Z"
+    },
+    {
+      "number": 46,
+      "slug": "ai-roots-15",
+      "title": "FlashAttention：数学没换，为什么计算能更高效",
+      "summary": "手算分块 softmax，理解高速存储、数据搬运与精确注意力的关系。",
+      "minutes": 8,
+      "article": "content/46-ai-roots-15.md",
+      "publishAt": "2026-11-06T21:00:00+08:00",
+      "reviewedHash": "6f8dd9763c6aeaf8256e7ffeadc482c89b76db1143a2f296c0fb9c41b02561e9",
+      "files": [
+        "content/46-ai-roots-15.md"
+      ],
+      "reviewedAt": "2026-10-23T09:54:01.718Z"
+    },
+    {
+      "number": 47,
+      "slug": "ai-roots-16",
+      "title": "Mamba：不存完整注意力矩阵，还能怎样处理序列",
+      "summary": "从状态更新与并行扫描出发，解释内容选择怎样改变长序列建模。",
+      "minutes": 8,
+      "article": "content/47-ai-roots-16.md",
+      "publishAt": "2026-11-07T21:00:00+08:00",
+      "reviewedHash": "a369f2888f9c4cca23fe8e7ef4fdea345e554818c46c6209a9e8e502d0f88189",
+      "files": [
+        "content/47-ai-roots-16.md"
+      ],
+      "reviewedAt": "2026-10-23T09:54:01.751Z"
+    },
+    {
+      "number": 48,
+      "slug": "ai-roots-17",
+      "title": "AlphaFold：怎样把结构知识放进预测过程",
+      "summary": "沿序列比对、位置对与空间几何，理解蛋白质结构预测的设计。",
+      "minutes": 8,
+      "article": "content/48-ai-roots-17.md",
+      "publishAt": "2026-11-08T21:00:00+08:00",
+      "reviewedHash": "aee3eeaae61f5cead78017a0ddba5526be697c82b5bd8e2226292badca730620",
+      "files": [
+        "content/48-ai-roots-17.md"
+      ],
+      "reviewedAt": "2026-10-23T09:54:01.784Z"
+    },
+    {
+      "number": 49,
+      "slug": "ai-roots-18",
+      "title": "时间序列基础模型：预测未来为何有自己的难处",
+      "summary": "比较 DeepAR、PatchTST、Chronos 与 TimesFM，并辨清预测评测中的未来信息。",
+      "minutes": 8,
+      "article": "content/49-ai-roots-18.md",
+      "publishAt": "2026-11-09T21:00:00+08:00",
+      "reviewedHash": "bd2751c069d7052a6bcd054d461738439b55e8dcdd1af0ff05a6b33957fac11c",
+      "files": [
+        "content/49-ai-roots-18.md"
+      ],
+      "reviewedAt": "2026-10-23T09:54:01.816Z"
     }
   ]
 }
