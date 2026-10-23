@@ -454,6 +454,62 @@
         "content/32-ai-roots-01.md"
       ],
       "reviewedAt": "2026-10-23T02:34:57.848Z"
+    },
+    {
+      "number": 33,
+      "slug": "ai-roots-02",
+      "title": "Seq2Seq：为什么把整句话压成一份摘要会吃力",
+      "summary": "用编码器和解码器接起翻译，拆开固定状态、逐步生成与训练时的正确前文。",
+      "minutes": 8,
+      "article": "content/33-ai-roots-02.md",
+      "publishAt": "2026-10-24T21:00:00+08:00",
+      "reviewedHash": "0784ea7d29844d20109de2101627f6fcc592071b55f345832bc6c5ee864c52e4",
+      "files": [
+        "content/33-ai-roots-02.md"
+      ],
+      "reviewedAt": "2026-10-23T06:36:27.301Z"
+    },
+    {
+      "number": 34,
+      "slug": "ai-roots-03",
+      "title": "注意力：翻译到一半，能不能回头看原文",
+      "summary": "从保留各位置的表示开始，手算一次打分、softmax 与上下文汇总。",
+      "minutes": 8,
+      "article": "content/34-ai-roots-03.md",
+      "publishAt": "2026-10-25T21:00:00+08:00",
+      "reviewedHash": "8d762f3e38d9594463c84733d56aeb76d63647645580bea1bdd0802122233caf",
+      "files": [
+        "content/34-ai-roots-03.md"
+      ],
+      "reviewedAt": "2026-10-23T06:36:27.350Z"
+    },
+    {
+      "number": 35,
+      "slug": "ai-roots-04",
+      "title": "为什么注意力需要 Q、K、V",
+      "summary": "沿着注意力和记忆网络的历史，把匹配与取值分开，算清 QKV 的来源、权重和尺寸。",
+      "minutes": 9,
+      "article": "content/35-ai-roots-04.md",
+      "publishAt": "2026-10-26T21:00:00+08:00",
+      "reviewedHash": "381eca66fe560dd92df833ae8236264218f8b7018c20e1a6b5902cd55bf3746f",
+      "files": [
+        "content/35-ai-roots-04.md"
+      ],
+      "reviewedAt": "2026-10-23T06:36:27.385Z"
+    },
+    {
+      "number": 36,
+      "slug": "ai-roots-05",
+      "title": "Transformer 怎样拿掉循环，又付出了什么代价",
+      "summary": "解释同层并行、残差、位置信息和因果遮罩，再算一笔长序列的计算账。",
+      "minutes": 8,
+      "article": "content/36-ai-roots-05.md",
+      "publishAt": "2026-10-27T21:00:00+08:00",
+      "reviewedHash": "0f0fda496bce3ee3c6fe7d40631e2207e300c1771abc9f3e8251b6ad56ecc504",
+      "files": [
+        "content/36-ai-roots-05.md"
+      ],
+      "reviewedAt": "2026-10-23T06:36:27.420Z"
     }
   ]
 }
