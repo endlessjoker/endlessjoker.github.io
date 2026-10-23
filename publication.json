@@ -566,6 +566,62 @@
         "content/40-ai-roots-09.md"
       ],
       "reviewedAt": "2026-10-23T08:37:01.471Z"
+    },
+    {
+      "number": 41,
+      "slug": "ai-roots-10",
+      "title": "GPT-3：参数没变，为什么几个例子能改变回答",
+      "summary": "从临时标签出发，区分上下文中的适应、参数更新和对话记忆。",
+      "minutes": 8,
+      "article": "content/41-ai-roots-10.md",
+      "publishAt": "2026-11-01T21:00:00+08:00",
+      "reviewedHash": "d715edd589ac5691be23f779b058a2fed29d2ed680a058a65ab9688a2386b3b9",
+      "files": [
+        "content/41-ai-roots-10.md"
+      ],
+      "reviewedAt": "2026-10-23T08:52:26.813Z"
+    },
+    {
+      "number": 42,
+      "slug": "ai-roots-11",
+      "title": "Chinchilla 与 LLaMA：模型更大，为什么未必划算",
+      "summary": "将参数、训练词元与使用成本分开计算，理解 Chinchilla 和初代 LLaMA 的取舍。",
+      "minutes": 8,
+      "article": "content/42-ai-roots-11.md",
+      "publishAt": "2026-11-02T21:00:00+08:00",
+      "reviewedHash": "9ea5a548c3c199d20fd55e7fd710c26c918b0bcad949ba95deda65790a94ff1f",
+      "files": [
+        "content/42-ai-roots-11.md"
+      ],
+      "reviewedAt": "2026-10-23T08:52:26.858Z"
+    },
+    {
+      "number": 43,
+      "slug": "ai-roots-12",
+      "title": "InstructGPT：会续写，怎样变成会听要求",
+      "summary": "沿示范、回答比较、奖励模型和策略优化，解释语言模型怎样学着按要求回答。",
+      "minutes": 8,
+      "article": "content/43-ai-roots-12.md",
+      "publishAt": "2026-11-03T21:00:00+08:00",
+      "reviewedHash": "56a5f629068b4fa9c41ee3109e2ecdefed521da861d4f455ee1191b8a900cdf4",
+      "files": [
+        "content/43-ai-roots-12.md"
+      ],
+      "reviewedAt": "2026-10-23T08:52:26.894Z"
+    },
+    {
+      "number": 44,
+      "slug": "ai-roots-13",
+      "title": "DPO：只有偏好比较，怎样用来训练",
+      "summary": "用一对回答的概率手算 DPO，说明参考模型、相对偏好与正确率的区别。",
+      "minutes": 9,
+      "article": "content/44-ai-roots-13.md",
+      "publishAt": "2026-11-04T21:00:00+08:00",
+      "reviewedHash": "b802a96334db0a116bb17b0cf9d1984bd6a6eb2cc67d5c3c9278c4e82de909bb",
+      "files": [
+        "content/44-ai-roots-13.md"
+      ],
+      "reviewedAt": "2026-10-23T08:52:26.929Z"
     }
   ]
 }
