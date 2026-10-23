@@ -65,3 +65,6 @@ examples/
 
 !content/assets/
 site/public/cnn-vision/
+
+!content/32-ai-roots-01.md
+site/ai-roots.md

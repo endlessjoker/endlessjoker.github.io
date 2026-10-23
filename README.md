@@ -44,3 +44,7 @@ GitHub 的定时任务可能延迟；可在 Actions → Publish daily chapter �
 SwiftUI 第十八篇之后接续 13 篇 CNN 与生物视觉，2026-10-10 至 2026-10-22 每天北京时间 21:00 发布。素材位于 `content/assets/`，必须纳入文章的 `files` 校验清单；构建只复制已到发布日期的素材。
 
 交互算例检查：`node --test scripts/cnn-vision-*.test.mjs`。
+
+## AI 技术的来路
+
+第三个系列规划 18 讲（全站第 32–49 篇），目录由 series-plan.json 生成于 /ai-roots。只有完成审阅的文章进入 publication.json；第一讲安排于 2026-10-23 21:00，后续 17 讲尚未排期。
