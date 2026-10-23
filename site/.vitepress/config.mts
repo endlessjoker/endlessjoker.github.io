@@ -5,7 +5,7 @@ const release = JSON.parse(readFileSync(new URL('../generated/release.json', imp
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Swift 实用开发笔记',
-  description: '记录 epubBooks 阅读器的开发过程，聊聊 SwiftUI、状态管理和异步代码。',
+  description: '从 SwiftUI 实用开发到 CNN、生物视觉与 AI 技术的来路，沿着具体问题理解实现和原理。',
   cleanUrls: true,
   sitemap: { hostname: 'https://endlessjoker.github.io' },
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]],
@@ -14,13 +14,15 @@ export default defineConfig({
     siteTitle: 'Swift 实用开发笔记',
     nav: [
       { text: '开始阅读', link: '/reading' },
+      { text: 'AI 技术的来路', link: '/ai-roots' },
       { text: '更新计划', link: '/roadmap' },
       { text: '关于', link: '/about' }
     ],
     sidebar: [
       { text: '阅读指南', items: [{ text: '从这里开始', link: '/reading' }, { text: '章节与更新计划', link: '/roadmap' }] },
       { text: 'SwiftUI 实用开发', items: release.articles.filter((a: any) => a.number <= 18).map((a: any) => ({ text: `${a.number}. ${a.title}`, link: `/articles/${a.slug}` })) },
-      ...(release.articles.some((a: any) => a.number > 18) ? [{ text: 'CNN 与生物视觉', items: release.articles.filter((a: any) => a.number > 18).map((a: any) => ({ text: `${a.number - 18}. ${a.title}`, link: `/articles/${a.slug}` })) }] : [])
+      ...(release.articles.some((a: any) => a.number > 18 && a.number <= 31) ? [{ text: 'CNN 与生物视觉', items: release.articles.filter((a: any) => a.number > 18 && a.number <= 31).map((a: any) => ({ text: `${a.number - 18}. ${a.title}`, link: `/articles/${a.slug}` })) }] : []),
+      { text: 'AI 技术的来路', items: [{ text: '系列目录', link: '/ai-roots' }, ...release.articles.filter((a: any) => a.number > 31).map((a: any) => ({ text: `${a.number - 31}. ${a.title}`, link: `/articles/${a.slug}` }))] }
     ],
     outline: { label: '本页内容', level: [2, 3] },
     docFooter: { prev: '上一篇', next: '下一篇' },
