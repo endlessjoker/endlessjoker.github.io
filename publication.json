@@ -440,6 +440,20 @@
         "content/31-cnn-vision-13.md"
       ],
       "reviewedAt": "2026-10-09T11:06:07.383Z"
+    },
+    {
+      "number": 32,
+      "slug": "ai-roots-01",
+      "title": "机器怎样把前文带到后面：从 RNN 到 LSTM",
+      "summary": "从一份不断更新的状态，理解循环网络怎样保留前文，以及 LSTM 改善了哪条记忆路径。",
+      "minutes": 7,
+      "article": "content/32-ai-roots-01.md",
+      "publishAt": "2026-10-23T21:00:00+08:00",
+      "reviewedHash": "a6bd07680f8398d27db8c79141cd430776609ef3e30e546fea430f712b9bcb46",
+      "files": [
+        "content/32-ai-roots-01.md"
+      ],
+      "reviewedAt": "2026-10-23T02:34:57.848Z"
     }
   ]
 }

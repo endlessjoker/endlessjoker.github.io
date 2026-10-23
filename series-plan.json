@@ -1,5 +1,5 @@
 {
-  "totalChapters": 31,
+  "totalChapters": 49,
   "chapters": [
     {
       "number": 1,
@@ -155,6 +155,96 @@
       "number": 31,
       "title": "电影院里清楚舒服与安全是三个问题",
       "focus": "把屏幕大小、亮度与立体观看放回清晰度、舒适度和安全的不同问题中。"
+    },
+    {
+      "number": 32,
+      "title": "机器怎样把前文带到后面：从 RNN 到 LSTM",
+      "focus": "AI 技术的来路 · 第 1 讲"
+    },
+    {
+      "number": 33,
+      "title": "Seq2Seq：为什么把整句话压成一份摘要会吃力",
+      "focus": "AI 技术的来路 · 第 2 讲"
+    },
+    {
+      "number": 34,
+      "title": "注意力：翻译到一半，能不能回头看原文",
+      "focus": "AI 技术的来路 · 第 3 讲"
+    },
+    {
+      "number": 35,
+      "title": "为什么注意力需要 Q、K、V",
+      "focus": "AI 技术的来路 · 第 4 讲"
+    },
+    {
+      "number": 36,
+      "title": "Transformer 怎样拿掉循环，又付出了什么代价",
+      "focus": "AI 技术的来路 · 第 5 讲"
+    },
+    {
+      "number": 37,
+      "title": "ViT：图片为什么也能当作一串输入",
+      "focus": "AI 技术的来路 · 第 6 讲"
+    },
+    {
+      "number": 38,
+      "title": "CLIP：图片和文字怎样配成一对",
+      "focus": "AI 技术的来路 · 第 7 讲"
+    },
+    {
+      "number": 39,
+      "title": "扩散模型到底在去掉什么",
+      "focus": "AI 技术的来路 · 第 8 讲"
+    },
+    {
+      "number": 40,
+      "title": "潜空间扩散与 SDXL：文字在哪里影响画面",
+      "focus": "AI 技术的来路 · 第 9 讲"
+    },
+    {
+      "number": 41,
+      "title": "GPT-3：参数没变，为什么几个例子能改变回答",
+      "focus": "AI 技术的来路 · 第 10 讲"
+    },
+    {
+      "number": 42,
+      "title": "Chinchilla 与 LLaMA：模型更大，为什么未必划算",
+      "focus": "AI 技术的来路 · 第 11 讲"
+    },
+    {
+      "number": 43,
+      "title": "InstructGPT：会续写，怎样变成会听要求",
+      "focus": "AI 技术的来路 · 第 12 讲"
+    },
+    {
+      "number": 44,
+      "title": "DPO：只有偏好比较，怎样用来训练",
+      "focus": "AI 技术的来路 · 第 13 讲"
+    },
+    {
+      "number": 45,
+      "title": "从思维链到推理训练：多想几步到底改变了什么",
+      "focus": "AI 技术的来路 · 第 14 讲"
+    },
+    {
+      "number": 46,
+      "title": "FlashAttention：数学没换，为什么计算能更高效",
+      "focus": "AI 技术的来路 · 第 15 讲"
+    },
+    {
+      "number": 47,
+      "title": "Mamba：不存完整注意力矩阵，还能怎样处理序列",
+      "focus": "AI 技术的来路 · 第 16 讲"
+    },
+    {
+      "number": 48,
+      "title": "AlphaFold：怎样把结构知识放进预测过程",
+      "focus": "AI 技术的来路 · 第 17 讲"
+    },
+    {
+      "number": 49,
+      "title": "时间序列基础模型：预测未来为何有自己的难处",
+      "focus": "AI 技术的来路 · 第 18 讲"
     }
   ]
 }
