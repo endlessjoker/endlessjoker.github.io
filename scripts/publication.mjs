@@ -21,9 +21,10 @@ export function validatePlan(plan) {
   for (const item of plan.articles) {
     if (!/^[a-z0-9-]+$/.test(item.slug) || ids.has(item.slug)) throw Error('Invalid or duplicate article slug');
     ids.add(item.slug);
-    // Preserve the already-published launch timestamp; all new chapters release at 21:00.
+    // Series launches may go live immediately; subsequent chapters release at 21:00.
+    const pytorchLaunch = item.number === 50 && item.slug === 'pytorch-01' && item.publishAt === '2026-11-13T17:50:00+08:00';
     const initialLaunch = item.number === 1 && item.slug === 'reader-start' && item.publishAt === '2026-09-22T09:00:00+08:00';
-    if ((!/^\d{4}-\d{2}-\d{2}T21:00:00\+08:00$/.test(item.publishAt) && !initialLaunch) || !Number.isFinite(Date.parse(item.publishAt))) {
+    if ((!/^\d{4}-\d{2}-\d{2}T21:00:00\+08:00$/.test(item.publishAt) && !initialLaunch && !pytorchLaunch) || !Number.isFinite(Date.parse(item.publishAt))) {
       throw Error(`Invalid Beijing release date: ${item.slug}`);
     }
     const day = item.publishAt.slice(0, 10);

@@ -1,5 +1,5 @@
 {
-  "totalChapters": 49,
+  "totalChapters": 57,
   "chapters": [
     {
       "number": 1,
@@ -245,6 +245,46 @@
       "number": 49,
       "title": "时间序列基础模型：预测未来为何有自己的难处",
       "focus": "AI 技术的来路 · 第 18 讲"
+    },
+    {
+      "number": 50,
+      "title": "模型学会了 到底哪个数字变了",
+      "focus": "看得懂的 PyTorch · 第 1 讲"
+    },
+    {
+      "number": 51,
+      "title": "Tensor 的形状为什么这么重要",
+      "focus": "看得懂的 PyTorch · 第 2 讲"
+    },
+    {
+      "number": 52,
+      "title": "预测错了 怎样算出一个损失",
+      "focus": "看得懂的 PyTorch · 第 3 讲"
+    },
+    {
+      "number": 53,
+      "title": "梯度怎样告诉参数往哪边改",
+      "focus": "看得懂的 PyTorch · 第 4 讲"
+    },
+    {
+      "number": 54,
+      "title": "把一次完整训练算出来",
+      "focus": "看得懂的 PyTorch · 第 5 讲"
+    },
+    {
+      "number": 55,
+      "title": "为什么学习率大了反而学不好",
+      "focus": "看得懂的 PyTorch · 第 6 讲"
+    },
+    {
+      "number": 56,
+      "title": "两层网络之间为什么需要激活函数",
+      "focus": "看得懂的 PyTorch · 第 7 讲"
+    },
+    {
+      "number": 57,
+      "title": "用 PyTorch 把前面的计算接起来",
+      "focus": "看得懂的 PyTorch · 第 8 讲"
     }
   ]
 }

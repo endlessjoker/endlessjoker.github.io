@@ -692,6 +692,104 @@
         "content/49-ai-roots-18.md"
       ],
       "reviewedAt": "2026-11-04T07:14:14.309Z"
+    },
+    {
+      "number": 50,
+      "slug": "pytorch-01",
+      "title": "模型学会了 到底哪个数字变了",
+      "summary": "用四条数据、两个参数，算清预测、损失、梯度和一次参数更新。",
+      "minutes": 8,
+      "article": "content/50-pytorch-01.md",
+      "publishAt": "2026-11-13T17:50:00+08:00",
+      "reviewedHash": "79e7f3745657009fd506dfd984557941110903e58cce0bb6f5c124426494be4a",
+      "files": [
+        "content/50-pytorch-01.md"
+      ],
+      "reviewedAt": "2026-11-13T09:54:34.586Z"
+    },
+    {
+      "number": 51,
+      "slug": "pytorch-02",
+      "title": "Tensor 的形状为什么这么重要",
+      "summary": "从多特征预测到错误广播，逐项核对 Tensor 形状与矩阵乘法。",
+      "minutes": 10,
+      "article": "content/51-pytorch-02.md",
+      "publishAt": "2026-11-14T21:00:00+08:00",
+      "reviewedHash": "8701dfe4e2f1069c713a211954789ac28ea5153f78c30fdc901b3ccaf0c94ce5",
+      "files": [
+        "content/51-pytorch-02.md"
+      ],
+      "reviewedAt": "2026-11-13T09:54:34.633Z"
+    },
+    {
+      "number": 52,
+      "slug": "pytorch-03",
+      "title": "预测错了 怎样算出一个损失",
+      "summary": "比较 MSE、MAE 与 Smooth L1，观察大误差怎样影响损失和梯度。",
+      "minutes": 10,
+      "article": "content/52-pytorch-03.md",
+      "publishAt": "2026-11-15T21:00:00+08:00",
+      "reviewedHash": "13b971fefe9032e7f03b4952de517691bd9bac2cd9e50c65d8cc728e31a09505",
+      "files": [
+        "content/52-pytorch-03.md"
+      ],
+      "reviewedAt": "2026-11-13T09:54:34.676Z"
+    },
+    {
+      "number": 53,
+      "slug": "pytorch-04",
+      "title": "梯度怎样告诉参数往哪边改",
+      "summary": "手算链式法则与批量梯度，再用有限差分核对参数的变化方向。",
+      "minutes": 10,
+      "article": "content/53-pytorch-04.md",
+      "publishAt": "2026-11-16T21:00:00+08:00",
+      "reviewedHash": "a747733ee6bc7e8db81eafba1a9006ac4c658e5f9caef5bff443b3a74b3ab48e",
+      "files": [
+        "content/53-pytorch-04.md"
+      ],
+      "reviewedAt": "2026-11-13T09:54:34.716Z"
+    },
+    {
+      "number": 54,
+      "slug": "pytorch-05",
+      "title": "把一次完整训练算出来",
+      "summary": "从一次更新到完整循环，比较手写更新与 SGD 优化器。",
+      "minutes": 10,
+      "article": "content/54-pytorch-05.md",
+      "publishAt": "2026-11-17T21:00:00+08:00",
+      "reviewedHash": "d40eb2c152d16f4d5737a8146de223aba7c5648f429e9ae05cfe8ba96e2cbaf4",
+      "files": [
+        "content/54-pytorch-05.md"
+      ],
+      "reviewedAt": "2026-11-13T09:54:34.756Z"
+    },
+    {
+      "number": 55,
+      "slug": "pytorch-06",
+      "title": "为什么学习率大了反而学不好",
+      "summary": "用可手算的递推公式，解释学习率怎样导致收敛、震荡和发散。",
+      "minutes": 10,
+      "article": "content/55-pytorch-06.md",
+      "publishAt": "2026-11-18T21:00:00+08:00",
+      "reviewedHash": "b6d2b2235cc153f34c18a9f385e3a8c4867c64bcd7e6ba65080d856c20149cb7",
+      "files": [
+        "content/55-pytorch-06.md"
+      ],
+      "reviewedAt": "2026-11-13T09:54:34.796Z"
+    },
+    {
+      "number": 56,
+      "slug": "pytorch-07",
+      "title": "两层网络之间为什么需要激活函数",
+      "summary": "证明线性层叠加仍可合并，再用 ReLU 构造绝对值并核对反向梯度。",
+      "minutes": 11,
+      "article": "content/56-pytorch-07.md",
+      "publishAt": "2026-11-19T21:00:00+08:00",
+      "reviewedHash": "e155fea788856dab63f0a24e8663a7a54aa37792ccd8004cd6a394d8f2c6a18b",
+      "files": [
+        "content/56-pytorch-07.md"
+      ],
+      "reviewedAt": "2026-11-13T09:54:34.836Z"
     }
   ]
 }

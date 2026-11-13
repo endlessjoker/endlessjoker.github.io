@@ -40,7 +40,7 @@ layout: home
 hero:
   name: Swift 实用开发笔记
   text: 从一个能复现的问题开始。
-  tagline: 从 SwiftUI 阅读器到 CNN、生物视觉与 AI 技术的来路，沿着具体问题理解设计和原理。
+  tagline: 从 SwiftUI、AI 技术的来路到 PyTorch 实践，用具体计算和代码理解原理。
   actions:
     - theme: brand
       text: ${articles.length ? '开始阅读第一篇' : '了解阅读方法'}
@@ -63,6 +63,8 @@ ${latest ? `**第 ${latest.number} 篇 · [${latest.title}](/articles/${latest.s
 
 ## 专题阅读
 
+[看得懂的 PyTorch：从理论到代码](/pytorch)——从两个参数开始，逐步算清模型怎样学习。
+
 [AI 技术的来路：18 讲目录](/ai-roots)——从 RNN 的记忆开始，追到注意力、Transformer 与大模型。
 
 ## 已发布文章
@@ -79,11 +81,11 @@ const rows = plan.articles.map(item => {
 const series = JSON.parse(readFileSync(path.join(root, 'series-plan.json')));
 const future = series.chapters.filter(topic => !plan.articles.some(item => item.number === topic.number));
 const futureRows = future.map(topic => `| ${topic.number} | ${topic.title} | ${topic.focus} |`);
-writeFileSync(path.join(site, 'roadmap.md'), `# 章节与更新计划\n\nSwiftUI 18 篇、CNN 与生物视觉 13 篇，接续 AI 技术的来路 18 篇，共规划 ${series.totalChapters} 篇，目前 ${plan.articles.filter(item => item.reviewedHash).length} 篇已检查并排期，后续还有 ${future.length} 篇尚未排期。\n\n北京时间每天 21:00 发布一篇已检查的备稿。GitHub 定时服务可能延迟；没有合格备稿时保持已有内容。\n\n| 篇目 | 主题 | 北京时间 | 状态 |\n|---|---|---|---|\n${rows.join('\n')}\n\n## 后续写作安排\n\n${futureRows.length ? '| 篇目 | 暂定标题 | 主要内容 |\n|---|---|---|\n' + futureRows.join('\n') : '当前规划已全部排期。'}\n\nCNN 与生物视觉从侧抑制、卷积与采样出发，经过脑机接口的证据问题，最终讨论影院观看中的清晰、舒适与安全。AI 技术的来路将从序列记忆讲到注意力、Transformer 与大模型。后续主题完成写作和检查后再排期。\n`);
+writeFileSync(path.join(site, 'roadmap.md'), `# 章节与更新计划\n\nSwiftUI 18 篇、CNN 与生物视觉 13 篇，AI 技术的来路 18 篇，再接续看得懂的 PyTorch 8 篇，共规划 ${series.totalChapters} 篇，目前 ${plan.articles.filter(item => item.reviewedHash).length} 篇已检查并排期，后续还有 ${future.length} 篇尚未排期。\n\nPyTorch 首讲在本次更新上线，后续北京时间每天 21:00 发布一篇已检查的备稿。GitHub 定时服务可能延迟；没有合格备稿时保持已有内容。\n\n| 篇目 | 主题 | 北京时间 | 状态 |\n|---|---|---|---|\n${rows.join('\n')}\n\n## 后续写作安排\n\n${futureRows.length ? '| 篇目 | 暂定标题 | 主要内容 |\n|---|---|---|\n' + futureRows.join('\n') : '当前规划已全部排期。'}\n\nCNN 与生物视觉从侧抑制、卷积与采样出发，经过脑机接口的证据问题，最终讨论影院观看中的清晰、舒适与安全。AI 技术的来路将从序列记忆讲到注意力、Transformer 与大模型。后续主题完成写作和检查后再排期。\n`);
 
 console.log(`Prepared ${articles.length} published articles; next: ${plan.articles[articles.length]?.publishAt ?? 'none'}.`);
 
-const aiRows = series.chapters.filter(topic => topic.number > 31).map(topic => {
+const aiRows = series.chapters.filter(topic => topic.number > 31 && topic.number <= 49).map(topic => {
   const live = articles.find(a => a.number === topic.number);
   const scheduled = plan.articles.find(a => a.number === topic.number);
   const title = live ? `[${topic.title}](/articles/${live.slug})` : topic.title;
@@ -107,4 +109,24 @@ ${aiRows.join('\n')}
 ## 关于材料
 
 本系列根据研究论文独立编写，教学算例另行标明，不是某本书的逐章译文。讨论历史模型时，会保留当时的实验条件，避免把后来的能力倒算到前人的工作上。
+`);
+
+const pytorchRows = series.chapters.filter(topic => topic.number >= 50 && topic.number <= 57).map(topic => {
+  const live = articles.find(a => a.number === topic.number);
+  const scheduled = plan.articles.find(a => a.number === topic.number);
+  const title = live ? `[${topic.title}](/articles/${live.slug})` : topic.title;
+  const status = live ? '已发布' : scheduled?.reviewedHash ? '已检查，待上线' : '写作计划';
+  return `| ${topic.number - 49} | ${title} | ${status} |`;
+});
+writeFileSync(path.join(site, 'pytorch.md'), `# 看得懂的 PyTorch
+
+从四条数据、两个参数开始，把模型的预测、损失、梯度和更新落实到代码。每讲使用可手算的例子，代码可按正文顺序运行，普通 CPU 即可。
+
+## 阅读顺序
+
+| 讲次 | 主题 | 状态 |
+|---|---|---|
+${pytorchRows.join('\n')}
+
+实验使用 PyTorch 2.13.0。第八讲完成后再排期，具体上线时间见[更新计划](/roadmap)。
 `);
