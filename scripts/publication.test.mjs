@@ -42,3 +42,15 @@ test('only the original launch may retain a morning timestamp', () => {
   assert.throws(() => validatePlan({ articles: [{ ...article('two', '2026-09-23'), publishAt: '2026-09-23T09:00:00+08:00' }] }));
   assert.throws(() => validatePlan({ articles: [{ ...launch, publishAt: '2026-09-23T09:00:00+08:00' }] }));
 });
+
+test('PyTorch launch is immediate but later lessons keep their scheduled boundary', () => {
+  const launch = { ...article('pytorch-01', '2026-11-13'), number: 50, publishAt: '2026-11-13T17:50:00+08:00' };
+  const second = { ...article('pytorch-02', '2026-11-14'), number: 51 };
+  const schedule = { articles: [launch, second] };
+  assert.doesNotThrow(() => validatePlan(schedule));
+  assert.equal(releasedArticles(schedule, new Date('2026-11-13T09:49:59Z')).length, 0);
+  assert.equal(releasedArticles(schedule, new Date('2026-11-13T09:50:00Z')).length, 1);
+  assert.equal(releasedArticles(schedule, new Date('2026-11-14T12:59:59Z')).length, 1);
+  assert.equal(releasedArticles(schedule, new Date('2026-11-14T13:00:00Z')).length, 2);
+  assert.throws(() => validatePlan({ articles: [{ ...second, publishAt: '2026-11-14T17:50:00+08:00' }] }));
+});
