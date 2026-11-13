@@ -15,6 +15,7 @@ export default defineConfig({
     nav: [
       { text: '开始阅读', link: '/reading' },
       { text: 'AI 技术的来路', link: '/ai-roots' },
+      { text: 'PyTorch 实践', link: '/pytorch' },
       { text: '更新计划', link: '/roadmap' },
       { text: '关于', link: '/about' }
     ],
@@ -22,7 +23,8 @@ export default defineConfig({
       { text: '阅读指南', items: [{ text: '从这里开始', link: '/reading' }, { text: '章节与更新计划', link: '/roadmap' }] },
       { text: 'SwiftUI 实用开发', items: release.articles.filter((a: any) => a.number <= 18).map((a: any) => ({ text: `${a.number}. ${a.title}`, link: `/articles/${a.slug}` })) },
       ...(release.articles.some((a: any) => a.number > 18 && a.number <= 31) ? [{ text: 'CNN 与生物视觉', items: release.articles.filter((a: any) => a.number > 18 && a.number <= 31).map((a: any) => ({ text: `${a.number - 18}. ${a.title}`, link: `/articles/${a.slug}` })) }] : []),
-      { text: 'AI 技术的来路', items: [{ text: '系列目录', link: '/ai-roots' }, ...release.articles.filter((a: any) => a.number > 31).map((a: any) => ({ text: `${a.number - 31}. ${a.title}`, link: `/articles/${a.slug}` }))] }
+      { text: 'AI 技术的来路', items: [{ text: '系列目录', link: '/ai-roots' }, ...release.articles.filter((a: any) => a.number > 31 && a.number <= 49).map((a: any) => ({ text: `${a.number - 31}. ${a.title}`, link: `/articles/${a.slug}` }))] },
+      { text: '看得懂的 PyTorch', items: [{ text: '系列目录', link: '/pytorch' }, ...release.articles.filter((a: any) => a.number >= 50 && a.number <= 57).map((a: any) => ({ text: `${a.number - 49}. ${a.title}`, link: `/articles/${a.slug}` }))] }
     ],
     outline: { label: '本页内容', level: [2, 3] },
     docFooter: { prev: '上一篇', next: '下一篇' },
