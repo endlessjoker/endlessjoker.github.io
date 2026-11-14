@@ -790,6 +790,160 @@
         "content/56-pytorch-07.md"
       ],
       "reviewedAt": "2026-11-13T09:54:34.836Z"
+    },
+    {
+      "number": 57,
+      "slug": "pytorch-08",
+      "title": "用 PyTorch 把前面的计算接起来",
+      "summary": "用七个参数串起前向计算、反向传播、更新与新样本预测。",
+      "minutes": 12,
+      "article": "content/57-pytorch-08.md",
+      "publishAt": "2026-11-20T21:00:00+08:00",
+      "reviewedHash": "38c8bbfb52ac41d2b022ac6f6b8b033a9b50c1d819901c82fb1042c971d1b7a8",
+      "files": [
+        "content/57-pytorch-08.md"
+      ],
+      "reviewedAt": "2026-11-14T07:06:43.354Z"
+    },
+    {
+      "number": 58,
+      "slug": "pytorch-09",
+      "title": "训练误差很小 为什么换数据就不准了",
+      "summary": "比较训练与验证误差，解释过拟合、数据划分和泄漏。",
+      "minutes": 12,
+      "article": "content/58-pytorch-09.md",
+      "publishAt": "2026-11-21T21:00:00+08:00",
+      "reviewedHash": "1f45f4d768ab77caf4001b5fa960c1bb63a581a3d786431e39938cc9cbcd7373",
+      "files": [
+        "content/58-pytorch-09.md"
+      ],
+      "reviewedAt": "2026-11-14T07:06:43.361Z"
+    },
+    {
+      "number": 59,
+      "slug": "pytorch-10",
+      "title": "数据分成小批以后 怎样训练",
+      "summary": "手算两个小批次更新，理解 DataLoader、epoch 与 step。",
+      "minutes": 12,
+      "article": "content/59-pytorch-10.md",
+      "publishAt": "2026-11-22T21:00:00+08:00",
+      "reviewedHash": "fd21f20ae08964bbd539c3ad918a6819e5ee6ef4601183d1437aa9d43ec0837b",
+      "files": [
+        "content/59-pytorch-10.md"
+      ],
+      "reviewedAt": "2026-11-14T07:06:43.362Z"
+    },
+    {
+      "number": 60,
+      "slug": "pytorch-11",
+      "title": "打乱顺序和最后一个小批次",
+      "summary": "核对打乱顺序、尾批处理与正确的平均损失。",
+      "minutes": 12,
+      "article": "content/60-pytorch-11.md",
+      "publishAt": "2026-11-23T21:00:00+08:00",
+      "reviewedHash": "c182e7f69a441d1b4a0689a83693b8c7fa665c41ac7b7472a3f56e71ddf2fd37",
+      "files": [
+        "content/60-pytorch-11.md"
+      ],
+      "reviewedAt": "2026-11-14T07:06:43.362Z"
+    },
+    {
+      "number": 61,
+      "slug": "pytorch-12",
+      "title": "显存不够时 怎样累积梯度",
+      "summary": "按样本权重累积梯度，对比一次大批量更新。",
+      "minutes": 12,
+      "article": "content/61-pytorch-12.md",
+      "publishAt": "2026-11-24T21:00:00+08:00",
+      "reviewedHash": "294cc4da0942af8c6d0efedf2dea8228067ca144a714cb2530a869e502d0d317",
+      "files": [
+        "content/61-pytorch-12.md"
+      ],
+      "reviewedAt": "2026-11-14T07:06:43.362Z"
+    },
+    {
+      "number": 62,
+      "slug": "pytorch-13",
+      "title": "分类模型怎样把分数变成概率",
+      "summary": "从类别得分计算 softmax 概率，区分单标签与多标签。",
+      "minutes": 12,
+      "article": "content/62-pytorch-13.md",
+      "publishAt": "2026-11-25T21:00:00+08:00",
+      "reviewedHash": "3845aff1e8809db6beeb353803e174b033668e804a0a4036e823ac369e070445",
+      "files": [
+        "content/62-pytorch-13.md"
+      ],
+      "reviewedAt": "2026-11-14T07:06:43.363Z"
+    },
+    {
+      "number": 63,
+      "slug": "pytorch-14",
+      "title": "交叉熵怎样把正确类别推上去",
+      "summary": "推导交叉熵梯度，手算分类层的参数更新。",
+      "minutes": 12,
+      "article": "content/63-pytorch-14.md",
+      "publishAt": "2026-11-26T21:00:00+08:00",
+      "reviewedHash": "77a0c32193c6d84b6ad7e36cf92904e8ee8675d58cde44186f30f2b06e27e5c0",
+      "files": [
+        "content/63-pytorch-14.md"
+      ],
+      "reviewedAt": "2026-11-14T07:06:43.363Z"
+    },
+    {
+      "number": 64,
+      "slug": "pytorch-15",
+      "title": "把分类训练和评估完整跑一遍",
+      "summary": "完成分批分类训练、验证选模、测试与混淆矩阵。",
+      "minutes": 12,
+      "article": "content/64-pytorch-15.md",
+      "publishAt": "2026-11-27T21:00:00+08:00",
+      "reviewedHash": "e3fec26261eb19751df259272b64665e7c94ce1d6f3d0d49cdcffbcc23187513",
+      "files": [
+        "content/64-pytorch-15.md"
+      ],
+      "reviewedAt": "2026-11-14T07:06:43.363Z"
+    },
+    {
+      "number": 65,
+      "slug": "pytorch-16",
+      "title": "输入尺度为什么影响训练",
+      "summary": "比较不同输入尺度的梯度，手算标准化并防止数据泄漏。",
+      "minutes": 12,
+      "article": "content/65-pytorch-16.md",
+      "publishAt": "2026-11-28T21:00:00+08:00",
+      "reviewedHash": "a373ace14fb76a7c1d7891bb880c66ed9ec9932fd8347cebe4de940cb041667e",
+      "files": [
+        "content/65-pytorch-16.md"
+      ],
+      "reviewedAt": "2026-11-14T07:06:43.364Z"
+    },
+    {
+      "number": 66,
+      "slug": "pytorch-17",
+      "title": "模型怎样保存 加载和继续训练",
+      "summary": "保存并恢复模型与动量状态，核对连续训练结果。",
+      "minutes": 12,
+      "article": "content/66-pytorch-17.md",
+      "publishAt": "2026-11-29T21:00:00+08:00",
+      "reviewedHash": "c58d1d8eab12b83ae960817787c169f74d3a36321b22ac8d9d81230c334be5f4",
+      "files": [
+        "content/66-pytorch-17.md"
+      ],
+      "reviewedAt": "2026-11-14T07:06:43.364Z"
+    },
+    {
+      "number": 67,
+      "slug": "pytorch-18",
+      "title": "把完整实验整理成一个小项目",
+      "summary": "把预处理、训练、选模、保存和独立预测整理成可运行项目。",
+      "minutes": 15,
+      "article": "content/67-pytorch-18.md",
+      "publishAt": "2026-11-30T21:00:00+08:00",
+      "reviewedHash": "6eaf525dbb3d50c9c3ffd2b35f2c340699acd6cf2287495499aa3449998e1ebf",
+      "files": [
+        "content/67-pytorch-18.md"
+      ],
+      "reviewedAt": "2026-11-14T07:06:43.365Z"
     }
   ]
 }
