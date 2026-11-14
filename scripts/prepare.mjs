@@ -81,7 +81,7 @@ const rows = plan.articles.map(item => {
 const series = JSON.parse(readFileSync(path.join(root, 'series-plan.json')));
 const future = series.chapters.filter(topic => !plan.articles.some(item => item.number === topic.number));
 const futureRows = future.map(topic => `| ${topic.number} | ${topic.title} | ${topic.focus} |`);
-writeFileSync(path.join(site, 'roadmap.md'), `# 章节与更新计划\n\nSwiftUI 18 篇、CNN 与生物视觉 13 篇，AI 技术的来路 18 篇，再接续看得懂的 PyTorch 8 篇，共规划 ${series.totalChapters} 篇，目前 ${plan.articles.filter(item => item.reviewedHash).length} 篇已检查并排期，后续还有 ${future.length} 篇尚未排期。\n\nPyTorch 首讲在本次更新上线，后续北京时间每天 21:00 发布一篇已检查的备稿。GitHub 定时服务可能延迟；没有合格备稿时保持已有内容。\n\n| 篇目 | 主题 | 北京时间 | 状态 |\n|---|---|---|---|\n${rows.join('\n')}\n\n## 后续写作安排\n\n${futureRows.length ? '| 篇目 | 暂定标题 | 主要内容 |\n|---|---|---|\n' + futureRows.join('\n') : '当前规划已全部排期。'}\n\nCNN 与生物视觉从侧抑制、卷积与采样出发，经过脑机接口的证据问题，最终讨论影院观看中的清晰、舒适与安全。AI 技术的来路将从序列记忆讲到注意力、Transformer 与大模型。后续主题完成写作和检查后再排期。\n`);
+writeFileSync(path.join(site, 'roadmap.md'), `# 章节与更新计划\n\nSwiftUI 18 篇、CNN 与生物视觉 13 篇，AI 技术的来路 18 篇，再接续看得懂的 PyTorch 18 篇，共规划 ${series.totalChapters} 篇，目前 ${plan.articles.filter(item => item.reviewedHash).length} 篇已检查并排期，后续还有 ${future.length} 篇尚未排期。\n\nPyTorch 首讲已于 2026 年 11 月 13 日上线，后续北京时间每天 21:00 发布一篇已检查的备稿。GitHub 定时服务可能延迟；没有合格备稿时保持已有内容。\n\n| 篇目 | 主题 | 北京时间 | 状态 |\n|---|---|---|---|\n${rows.join('\n')}\n\n## 后续写作安排\n\n${futureRows.length ? '| 篇目 | 暂定标题 | 主要内容 |\n|---|---|---|\n' + futureRows.join('\n') : '当前规划已全部排期。'}\n\nCNN 与生物视觉从侧抑制、卷积与采样出发，经过脑机接口的证据问题，最终讨论影院观看中的清晰、舒适与安全。AI 技术的来路将从序列记忆讲到注意力、Transformer 与大模型。后续主题完成写作和检查后再排期。\n`);
 
 console.log(`Prepared ${articles.length} published articles; next: ${plan.articles[articles.length]?.publishAt ?? 'none'}.`);
 
@@ -111,7 +111,7 @@ ${aiRows.join('\n')}
 本系列根据研究论文独立编写，教学算例另行标明，不是某本书的逐章译文。讨论历史模型时，会保留当时的实验条件，避免把后来的能力倒算到前人的工作上。
 `);
 
-const pytorchRows = series.chapters.filter(topic => topic.number >= 50 && topic.number <= 57).map(topic => {
+const pytorchRows = series.chapters.filter(topic => topic.number >= 50 && topic.number <= 67).map(topic => {
   const live = articles.find(a => a.number === topic.number);
   const scheduled = plan.articles.find(a => a.number === topic.number);
   const title = live ? `[${topic.title}](/articles/${live.slug})` : topic.title;
@@ -128,5 +128,5 @@ writeFileSync(path.join(site, 'pytorch.md'), `# 看得懂的 PyTorch
 |---|---|---|
 ${pytorchRows.join('\n')}
 
-实验使用 PyTorch 2.13.0。第八讲完成后再排期，具体上线时间见[更新计划](/roadmap)。
+全系列 18 讲已完成并核对，覆盖训练基础、批量训练、分类、标准化与保存部署。实验使用 PyTorch 2.13.0，具体上线时间见[更新计划](/roadmap)。
 `);

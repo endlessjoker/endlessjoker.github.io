@@ -1,5 +1,5 @@
 {
-  "totalChapters": 57,
+  "totalChapters": 67,
   "chapters": [
     {
       "number": 1,
@@ -285,6 +285,56 @@
       "number": 57,
       "title": "用 PyTorch 把前面的计算接起来",
       "focus": "看得懂的 PyTorch · 第 8 讲"
+    },
+    {
+      "number": 58,
+      "title": "训练误差很小 为什么换数据就不准了",
+      "focus": "看得懂的 PyTorch · 第 9 讲"
+    },
+    {
+      "number": 59,
+      "title": "数据分成小批以后 怎样训练",
+      "focus": "看得懂的 PyTorch · 第 10 讲"
+    },
+    {
+      "number": 60,
+      "title": "打乱顺序和最后一个小批次",
+      "focus": "看得懂的 PyTorch · 第 11 讲"
+    },
+    {
+      "number": 61,
+      "title": "显存不够时 怎样累积梯度",
+      "focus": "看得懂的 PyTorch · 第 12 讲"
+    },
+    {
+      "number": 62,
+      "title": "分类模型怎样把分数变成概率",
+      "focus": "看得懂的 PyTorch · 第 13 讲"
+    },
+    {
+      "number": 63,
+      "title": "交叉熵怎样把正确类别推上去",
+      "focus": "看得懂的 PyTorch · 第 14 讲"
+    },
+    {
+      "number": 64,
+      "title": "把分类训练和评估完整跑一遍",
+      "focus": "看得懂的 PyTorch · 第 15 讲"
+    },
+    {
+      "number": 65,
+      "title": "输入尺度为什么影响训练",
+      "focus": "看得懂的 PyTorch · 第 16 讲"
+    },
+    {
+      "number": 66,
+      "title": "模型怎样保存 加载和继续训练",
+      "focus": "看得懂的 PyTorch · 第 17 讲"
+    },
+    {
+      "number": 67,
+      "title": "把完整实验整理成一个小项目",
+      "focus": "看得懂的 PyTorch · 第 18 讲"
     }
   ]
 }
