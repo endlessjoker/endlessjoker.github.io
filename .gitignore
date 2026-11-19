@@ -1,3 +1,4 @@
+/node_modules
 node_modules/
 site/.vitepress/cache/
 site/.vitepress/dist/
@@ -106,3 +107,28 @@ site/pytorch.md
 !content/65-pytorch-16.md
 !content/66-pytorch-17.md
 !content/67-pytorch-18.md
+
+# Transformer series and reviewed experiment data
+!content/68-transformer-00.md
+!content/69-transformer-01.md
+!content/70-transformer-02.md
+!content/71-transformer-03.md
+!content/72-transformer-04.md
+!content/73-transformer-05.md
+!content/74-transformer-06.md
+!content/75-transformer-07.md
+!content/76-transformer-08.md
+!content/77-transformer-09.md
+!content/78-transformer-10.md
+!content/79-transformer-11.md
+!content/80-transformer-12.md
+
+!content/transformer-data/
+content/transformer-data/*
+!content/transformer-data/transformer-0[0-57-9].json
+!content/transformer-data/transformer-12.json
+!content/transformer-data/license-qwen3.txt
+!content/transformer-data/license-qwen35.txt
+!content/transformer-data/license-dspark.txt
+site/transformer.md
+site/public/transformer-data/
