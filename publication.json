@@ -1184,6 +1184,51 @@
         "content/transformer-data/transformer-15.json"
       ],
       "reviewedAt": "2026-11-19T10:09:42.300Z"
+    },
+    {
+      "number": 84,
+      "slug": "transformer-16",
+      "title": "Qwen3.5 怎样给图像里的位置编号",
+      "summary": "跑到 Qwen3.5 第一层全注意力，比较一维编号与三轴 RoPE 的打分。",
+      "minutes": 9,
+      "article": "content/84-transformer-16.md",
+      "publishAt": "2026-12-17T21:00:00+08:00",
+      "reviewedHash": "8ee9f4084412c5e92020fc715649b77a2e8c3217213ba4ecf674fadcf6ac84be",
+      "files": [
+        "content/84-transformer-16.md",
+        "content/transformer-data/transformer-16.json"
+      ],
+      "reviewedAt": "2026-11-19T11:18:54.958Z"
+    },
+    {
+      "number": 85,
+      "slug": "transformer-17",
+      "title": "gpt-oss 为什么让注意力把权重分给零",
+      "summary": "用 gpt-oss 首层权重实算把注意力分给零向量的效果。",
+      "minutes": 9,
+      "article": "content/85-transformer-17.md",
+      "publishAt": "2026-12-18T21:00:00+08:00",
+      "reviewedHash": "3d67c39e243607464189e76e801efc9b30d461e7b97aeebfcc7f55b814326482",
+      "files": [
+        "content/85-transformer-17.md",
+        "content/transformer-data/transformer-17.json"
+      ],
+      "reviewedAt": "2026-11-19T11:18:55.015Z"
+    },
+    {
+      "number": 86,
+      "slug": "transformer-18",
+      "title": "Gemma 4 怎样让二十层共用 KV",
+      "summary": "让 Gemma 4 的两层查询共读一份 KV，再核算 128K 缓存容量。",
+      "minutes": 10,
+      "article": "content/86-transformer-18.md",
+      "publishAt": "2026-12-19T21:00:00+08:00",
+      "reviewedHash": "23cb29dd0ab4b5c8c8a050378fd4313a825726e582da6e4979831856cd9445c5",
+      "files": [
+        "content/86-transformer-18.md",
+        "content/transformer-data/transformer-18.json"
+      ],
+      "reviewedAt": "2026-11-19T11:18:55.053Z"
     }
   ]
 }

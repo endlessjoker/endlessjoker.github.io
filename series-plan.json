@@ -1,5 +1,5 @@
 {
-  "totalChapters": 83,
+  "totalChapters": 86,
   "chapters": [
     {
       "number": 1,
@@ -415,6 +415,21 @@
       "number": 83,
       "title": "Qwen3.5 怎样把一张图放进语言模型",
       "focus": "Transformer 与开源大模型 · 第 15 讲"
+    },
+    {
+      "number": 84,
+      "title": "Qwen3.5 怎样给图像里的位置编号",
+      "focus": "Transformer 与开源大模型 · 第 16 讲"
+    },
+    {
+      "number": 85,
+      "title": "gpt-oss 为什么让注意力把权重分给零",
+      "focus": "Transformer 与开源大模型 · 第 17 讲"
+    },
+    {
+      "number": 86,
+      "title": "Gemma 4 怎样让二十层共用 KV",
+      "focus": "Transformer 与开源大模型 · 第 18 讲"
     }
   ]
 }
