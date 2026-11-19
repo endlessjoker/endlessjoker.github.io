@@ -5,7 +5,7 @@ const release = JSON.parse(readFileSync(new URL('../generated/release.json', imp
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Swift 实用开发笔记',
-  description: '从 SwiftUI 实用开发到 CNN、生物视觉与 AI 技术的来路，沿着具体问题理解实现和原理。',
+  description: '从 SwiftUI 开发到 PyTorch 与 Transformer，沿着实际代码和实验理解原理。',
   cleanUrls: true,
   sitemap: { hostname: 'https://endlessjoker.github.io' },
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]],
@@ -16,6 +16,7 @@ export default defineConfig({
       { text: '开始阅读', link: '/reading' },
       { text: 'AI 技术的来路', link: '/ai-roots' },
       { text: 'PyTorch 实践', link: '/pytorch' },
+      { text: 'Transformer', link: '/transformer' },
       { text: '更新计划', link: '/roadmap' },
       { text: '关于', link: '/about' }
     ],
@@ -24,7 +25,8 @@ export default defineConfig({
       { text: 'SwiftUI 实用开发', items: release.articles.filter((a: any) => a.number <= 18).map((a: any) => ({ text: `${a.number}. ${a.title}`, link: `/articles/${a.slug}` })) },
       ...(release.articles.some((a: any) => a.number > 18 && a.number <= 31) ? [{ text: 'CNN 与生物视觉', items: release.articles.filter((a: any) => a.number > 18 && a.number <= 31).map((a: any) => ({ text: `${a.number - 18}. ${a.title}`, link: `/articles/${a.slug}` })) }] : []),
       { text: 'AI 技术的来路', items: [{ text: '系列目录', link: '/ai-roots' }, ...release.articles.filter((a: any) => a.number > 31 && a.number <= 49).map((a: any) => ({ text: `${a.number - 31}. ${a.title}`, link: `/articles/${a.slug}` }))] },
-      { text: '看得懂的 PyTorch', items: [{ text: '系列目录', link: '/pytorch' }, ...release.articles.filter((a: any) => a.number >= 50 && a.number <= 67).map((a: any) => ({ text: `${a.number - 49}. ${a.title}`, link: `/articles/${a.slug}` }))] }
+      { text: '看得懂的 PyTorch', items: [{ text: '系列目录', link: '/pytorch' }, ...release.articles.filter((a: any) => a.number >= 50 && a.number <= 67).map((a: any) => ({ text: `${a.number - 49}. ${a.title}`, link: `/articles/${a.slug}` }))] },
+      { text: 'Transformer 与开源大模型', items: [{ text: '系列目录', link: '/transformer' }, ...release.articles.filter((a: any) => a.slug.startsWith('transformer-')).map((a: any) => ({ text: a.number === 68 ? `样章：${a.title}` : `${a.number - 68}. ${a.title}`, link: `/articles/${a.slug}` }))] }
     ],
     outline: { label: '本页内容', level: [2, 3] },
     docFooter: { prev: '上一篇', next: '下一篇' },

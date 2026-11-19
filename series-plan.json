@@ -1,5 +1,5 @@
 {
-  "totalChapters": 67,
+  "totalChapters": 80,
   "chapters": [
     {
       "number": 1,
@@ -335,6 +335,71 @@
       "number": 67,
       "title": "把完整实验整理成一个小项目",
       "focus": "看得懂的 PyTorch · 第 18 讲"
+    },
+    {
+      "number": 68,
+      "title": "Qwen3 的四个注意力头怎样共用一组 K、V",
+      "focus": "Transformer 与开源大模型 · 样章"
+    },
+    {
+      "number": 69,
+      "title": "「巴黎」进出模型时读的是同一行吗",
+      "focus": "Transformer 与开源大模型 · 第 1 讲"
+    },
+    {
+      "number": 70,
+      "title": "RoPE 怎样把距离写进 Q、K 的点积",
+      "focus": "Transformer 与开源大模型 · 第 2 讲"
+    },
+    {
+      "number": 71,
+      "title": "Qwen3.5 为什么在注意力输出上加门",
+      "focus": "Transformer 与开源大模型 · 第 3 讲"
+    },
+    {
+      "number": 72,
+      "title": "Qwen3.5 怎样改写已经记住的东西",
+      "focus": "Transformer 与开源大模型 · 第 4 讲"
+    },
+    {
+      "number": 73,
+      "title": "DeepSeek 的 MLA 为什么不用展开 K、V",
+      "focus": "Transformer 与开源大模型 · 第 5 讲"
+    },
+    {
+      "number": 74,
+      "title": "DeepSeek V4.1 先挑哪几段历史",
+      "focus": "Transformer 与开源大模型 · 第 6 讲"
+    },
+    {
+      "number": 75,
+      "title": "Qwen 怎样给每个 token 挑八个专家",
+      "focus": "Transformer 与开源大模型 · 第 7 讲"
+    },
+    {
+      "number": 76,
+      "title": "投机解码猜错一个，为什么后面也要丢",
+      "focus": "Transformer 与开源大模型 · 第 8 讲"
+    },
+    {
+      "number": 77,
+      "title": "DeepSeek 的 DSpark 怎样让草稿接得上",
+      "focus": "Transformer 与开源大模型 · 第 9 讲"
+    },
+    {
+      "number": 78,
+      "title": "DeepSeek 为什么让长提示少跑二十层",
+      "focus": "Transformer 与开源大模型 · 第 10 讲"
+    },
+    {
+      "number": 79,
+      "title": "同一个「都是」怎样查到不同的记忆",
+      "focus": "Transformer 与开源大模型 · 第 11 讲"
+    },
+    {
+      "number": 80,
+      "title": "四条残差流怎样进同一层注意力",
+      "focus": "Transformer 与开源大模型 · 第 12 讲"
     }
   ]
 }

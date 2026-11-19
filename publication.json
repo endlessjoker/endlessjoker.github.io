@@ -944,6 +944,201 @@
         "content/67-pytorch-18.md"
       ],
       "reviewedAt": "2026-11-14T07:06:43.365Z"
+    },
+    {
+      "number": 68,
+      "slug": "transformer-00",
+      "title": "Qwen3 的四个注意力头怎样共用一组 K、V",
+      "summary": "用 Qwen3 的真实注意力头看清 GQA，再核算 KV 缓存。",
+      "minutes": 10,
+      "article": "content/68-transformer-00.md",
+      "publishAt": "2026-12-01T21:00:00+08:00",
+      "reviewedHash": "77ccc51b5d11929aff29d949dbd93f228b586751e8b3c7508af2a8ccde0bb555",
+      "files": [
+        "content/68-transformer-00.md",
+        "content/transformer-data/transformer-00.json"
+      ],
+      "reviewedAt": "2026-11-19T03:31:36.148Z"
+    },
+    {
+      "number": 69,
+      "slug": "transformer-01",
+      "title": "「巴黎」进出模型时读的是同一行吗",
+      "summary": "读出「巴黎」的两个向量，解释输入表和输出表何时共享。",
+      "minutes": 9,
+      "article": "content/69-transformer-01.md",
+      "publishAt": "2026-12-02T21:00:00+08:00",
+      "reviewedHash": "8a84d2e9eb4a86452ce6f9a54c8822a5454309bfbb21d31a27fce173e261969c",
+      "files": [
+        "content/69-transformer-01.md",
+        "content/transformer-data/transformer-01.json",
+        "content/transformer-data/license-qwen3.txt"
+      ],
+      "reviewedAt": "2026-11-19T03:31:36.188Z"
+    },
+    {
+      "number": 70,
+      "slug": "transformer-02",
+      "title": "RoPE 怎样把距离写进 Q、K 的点积",
+      "summary": "重算首层 Q、K，对比分别移动所有位置和把新位置错设为 0。",
+      "minutes": 10,
+      "article": "content/70-transformer-02.md",
+      "publishAt": "2026-12-03T21:00:00+08:00",
+      "reviewedHash": "6ca8ae7a558046c1fbf6619e920286cab94511aec0afb61c8da4830c0c2b32a3",
+      "files": [
+        "content/70-transformer-02.md",
+        "content/transformer-data/transformer-02.json"
+      ],
+      "reviewedAt": "2026-11-19T03:31:36.227Z"
+    },
+    {
+      "number": 71,
+      "slug": "transformer-03",
+      "title": "Qwen3.5 为什么在注意力输出上加门",
+      "summary": "用 Qwen3.5 首个完整注意力层复算门控和输出投影。",
+      "minutes": 10,
+      "article": "content/71-transformer-03.md",
+      "publishAt": "2026-12-04T21:00:00+08:00",
+      "reviewedHash": "0f49756e1bd1c882955ca88a167c1b83ea493d01e149cfe9e83088fd1c38795c",
+      "files": [
+        "content/71-transformer-03.md",
+        "content/transformer-data/transformer-03.json",
+        "content/transformer-data/license-qwen35.txt"
+      ],
+      "reviewedAt": "2026-11-19T03:31:36.265Z"
+    },
+    {
+      "number": 72,
+      "slug": "transformer-04",
+      "title": "Qwen3.5 怎样改写已经记住的东西",
+      "summary": "用真实首层张量算一次 Gated DeltaNet 记忆更新。",
+      "minutes": 11,
+      "article": "content/72-transformer-04.md",
+      "publishAt": "2026-12-05T21:00:00+08:00",
+      "reviewedHash": "069dc0fdc67b55f19241c3da97a6a428d576945620f9c4f6bed4f4198c5479b1",
+      "files": [
+        "content/72-transformer-04.md",
+        "content/transformer-data/transformer-04.json"
+      ],
+      "reviewedAt": "2026-11-19T03:31:36.302Z"
+    },
+    {
+      "number": 73,
+      "slug": "transformer-05",
+      "title": "DeepSeek 的 MLA 为什么不用展开 K、V",
+      "summary": "用 DeepSeek-V2-Lite 比较展开 KV 和直接读潜向量。",
+      "minutes": 11,
+      "article": "content/73-transformer-05.md",
+      "publishAt": "2026-12-06T21:00:00+08:00",
+      "reviewedHash": "5439abf39f26e2f87a3c9ccdee2fb4c52c8b2eeb7817f5c601a837ebcebf3d6f",
+      "files": [
+        "content/73-transformer-05.md",
+        "content/transformer-data/transformer-05.json"
+      ],
+      "reviewedAt": "2026-11-19T03:31:36.339Z"
+    },
+    {
+      "number": 74,
+      "slug": "transformer-06",
+      "title": "DeepSeek V4.1 先挑哪几段历史",
+      "summary": "查权重表，算清 DeepSeek V4.1 的跨层共享和两轮选址。",
+      "minutes": 12,
+      "article": "content/74-transformer-06.md",
+      "publishAt": "2026-12-07T21:00:00+08:00",
+      "reviewedHash": "cc2b12ffc135cf32e79d93a8bdbd83bc69170e57b778817fe10e260d09d581f1",
+      "files": [
+        "content/74-transformer-06.md"
+      ],
+      "reviewedAt": "2026-11-19T03:31:36.375Z"
+    },
+    {
+      "number": 75,
+      "slug": "transformer-07",
+      "title": "Qwen 怎样给每个 token 挑八个专家",
+      "summary": "重算 Qwen3-30B-A3B 首层怎样选出八个专家并汇总。",
+      "minutes": 10,
+      "article": "content/75-transformer-07.md",
+      "publishAt": "2026-12-08T21:00:00+08:00",
+      "reviewedHash": "088c4c14ed42cff299c20b31dadce02b73045a96e1a073e3bca948d2de329734",
+      "files": [
+        "content/75-transformer-07.md",
+        "content/transformer-data/transformer-07.json"
+      ],
+      "reviewedAt": "2026-11-19T03:31:36.411Z"
+    },
+    {
+      "number": 76,
+      "slug": "transformer-08",
+      "title": "投机解码猜错一个，为什么后面也要丢",
+      "summary": "用两个 Pythia 模型实跑分块验证和贪心续写。",
+      "minutes": 11,
+      "article": "content/76-transformer-08.md",
+      "publishAt": "2026-12-09T21:00:00+08:00",
+      "reviewedHash": "59c93d1e281d50544ba49fff8c5ba30fc4b4029a6de810e14a2f5ed01615654c",
+      "files": [
+        "content/76-transformer-08.md",
+        "content/transformer-data/transformer-08.json"
+      ],
+      "reviewedAt": "2026-11-19T03:31:36.447Z"
+    },
+    {
+      "number": 77,
+      "slug": "transformer-09",
+      "title": "DeepSeek 的 DSpark 怎样让草稿接得上",
+      "summary": "实算 DSpark 草稿打分的修正，拆开验证长短的取舍。",
+      "minutes": 11,
+      "article": "content/77-transformer-09.md",
+      "publishAt": "2026-12-10T21:00:00+08:00",
+      "reviewedHash": "2a72aff30204b6a7f989d682f7a6640cc0cd72618ee88b3c4302bbacaf574bfc",
+      "files": [
+        "content/77-transformer-09.md",
+        "content/transformer-data/transformer-09.json",
+        "content/transformer-data/license-dspark.txt"
+      ],
+      "reviewedAt": "2026-11-19T03:31:36.484Z"
+    },
+    {
+      "number": 78,
+      "slug": "transformer-10",
+      "title": "DeepSeek 为什么让长提示少跑二十层",
+      "summary": "算清长提示为什么能跳过部分解码层，以及滑窗回放为何是近似。",
+      "minutes": 10,
+      "article": "content/78-transformer-10.md",
+      "publishAt": "2026-12-11T21:00:00+08:00",
+      "reviewedHash": "b1992f9cf6e05a447998a8e00929f40172d4cf76aec7ac57570713d228949808",
+      "files": [
+        "content/78-transformer-10.md"
+      ],
+      "reviewedAt": "2026-11-19T05:46:11.973Z"
+    },
+    {
+      "number": 79,
+      "slug": "transformer-11",
+      "title": "同一个「都是」怎样查到不同的记忆",
+      "summary": "用实际分词、哈希地址和 FP8 表行重算一次条件记忆。",
+      "minutes": 11,
+      "article": "content/79-transformer-11.md",
+      "publishAt": "2026-12-12T21:00:00+08:00",
+      "reviewedHash": "09e8797ec85da77be3ef7f99f1fd324bcce222d1b0da7d2d8c29ddf58fcefff9",
+      "files": [
+        "content/79-transformer-11.md"
+      ],
+      "reviewedAt": "2026-11-19T05:46:12.007Z"
+    },
+    {
+      "number": 80,
+      "slug": "transformer-12",
+      "title": "四条残差流怎样进同一层注意力",
+      "summary": "实算四条残差流的混合，解释为什么提前生成读入系数。",
+      "minutes": 11,
+      "article": "content/80-transformer-12.md",
+      "publishAt": "2026-12-13T21:00:00+08:00",
+      "reviewedHash": "27c43fa560cc1a354e70e02e56a746a18900306193b409854a013cad6d6e66c5",
+      "files": [
+        "content/80-transformer-12.md",
+        "content/transformer-data/transformer-12.json"
+      ],
+      "reviewedAt": "2026-11-19T05:46:12.042Z"
     }
   ]
 }
