@@ -1139,6 +1139,51 @@
         "content/transformer-data/transformer-12.json"
       ],
       "reviewedAt": "2026-11-19T05:46:12.042Z"
+    },
+    {
+      "number": 81,
+      "slug": "transformer-13",
+      "title": "Kimi Linear 怎样让同一个头记得有长有短",
+      "summary": "用 Kimi Linear 首层实际权重复算逐行遗忘，和整头只用一个保留比例的结果比较。",
+      "minutes": 10,
+      "article": "content/81-transformer-13.md",
+      "publishAt": "2026-12-14T21:00:00+08:00",
+      "reviewedHash": "8d93ddb306cae61cb80e2f7fa9051112039e8386f12496feddb94bb854d566de",
+      "files": [
+        "content/81-transformer-13.md",
+        "content/transformer-data/transformer-13.json"
+      ],
+      "reviewedAt": "2026-11-19T10:09:42.207Z"
+    },
+    {
+      "number": 82,
+      "slug": "transformer-14",
+      "title": "Gemma 4 为什么给每一层另备词向量",
+      "summary": "跑 Gemma 4 E2B 首层，算出同一个词在不同上下文里如何使用同一份查表结果。",
+      "minutes": 10,
+      "article": "content/82-transformer-14.md",
+      "publishAt": "2026-12-15T21:00:00+08:00",
+      "reviewedHash": "4acc807eafc813d955c7283675809adb76126c0d05afd949dc458c575ba1a937",
+      "files": [
+        "content/82-transformer-14.md",
+        "content/transformer-data/transformer-14.json"
+      ],
+      "reviewedAt": "2026-11-19T10:09:42.259Z"
+    },
+    {
+      "number": 83,
+      "slug": "transformer-15",
+      "title": "Qwen3.5 怎样把一张图放进语言模型",
+      "summary": "跑 Qwen3.5 视觉编码器，跟踪 256 个小块怎样变成语言模型的 64 个位置。",
+      "minutes": 11,
+      "article": "content/83-transformer-15.md",
+      "publishAt": "2026-12-16T21:00:00+08:00",
+      "reviewedHash": "5b7c2e4fb5a9df84d3d847c6ca2543b198afc6070921c631e975268c8c967525",
+      "files": [
+        "content/83-transformer-15.md",
+        "content/transformer-data/transformer-15.json"
+      ],
+      "reviewedAt": "2026-11-19T10:09:42.300Z"
     }
   ]
 }

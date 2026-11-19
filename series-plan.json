@@ -1,5 +1,5 @@
 {
-  "totalChapters": 80,
+  "totalChapters": 83,
   "chapters": [
     {
       "number": 1,
@@ -400,6 +400,21 @@
       "number": 80,
       "title": "四条残差流怎样进同一层注意力",
       "focus": "Transformer 与开源大模型 · 第 12 讲"
+    },
+    {
+      "number": 81,
+      "title": "Kimi Linear 怎样让同一个头记得有长有短",
+      "focus": "Transformer 与开源大模型 · 第 13 讲"
+    },
+    {
+      "number": 82,
+      "title": "Gemma 4 为什么给每一层另备词向量",
+      "focus": "Transformer 与开源大模型 · 第 14 讲"
+    },
+    {
+      "number": 83,
+      "title": "Qwen3.5 怎样把一张图放进语言模型",
+      "focus": "Transformer 与开源大模型 · 第 15 讲"
     }
   ]
 }
