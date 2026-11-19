@@ -1,5 +1,5 @@
 {
-  "totalChapters": 86,
+  "totalChapters": 89,
   "chapters": [
     {
       "number": 1,
@@ -430,6 +430,21 @@
       "number": 86,
       "title": "Gemma 4 怎样让二十层共用 KV",
       "focus": "Transformer 与开源大模型 · 第 18 讲"
+    },
+    {
+      "number": 87,
+      "title": "Gemma 4 Unified 省掉视觉编码器之后",
+      "focus": "Transformer 与开源大模型 · 第 19 讲"
+    },
+    {
+      "number": 88,
+      "title": "gpt-oss 怎样用 17 字节装下 32 个权重",
+      "focus": "Transformer 与开源大模型 · 第 20 讲"
+    },
+    {
+      "number": 89,
+      "title": "Qwen3.5 复用前缀时还要带上什么",
+      "focus": "Transformer 与开源大模型 · 第 21 讲"
     }
   ]
 }

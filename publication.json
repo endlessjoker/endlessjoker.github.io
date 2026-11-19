@@ -1229,6 +1229,52 @@
         "content/transformer-data/transformer-18.json"
       ],
       "reviewedAt": "2026-11-19T11:18:55.053Z"
+    },
+    {
+      "number": 87,
+      "slug": "transformer-19",
+      "title": "Gemma 4 Unified 省掉视觉编码器之后",
+      "summary": "用 Gemma 4 12B Unified 实算裸图块如何在首个语言层互相读取。",
+      "minutes": 9,
+      "article": "content/87-transformer-19.md",
+      "publishAt": "2026-12-20T21:00:00+08:00",
+      "reviewedHash": "7a5898867fb43ef008287eb6bee354ab1b8b12b99794dc9c85ca701daf9f2338",
+      "files": [
+        "content/87-transformer-19.md",
+        "content/transformer-data/transformer-19.json"
+      ],
+      "reviewedAt": "2026-11-19T12:24:18.678Z"
+    },
+    {
+      "number": 88,
+      "slug": "transformer-20",
+      "title": "gpt-oss 怎样用 17 字节装下 32 个权重",
+      "summary": "从 gpt-oss 选中的真实专家解码一组 MXFP4 权重，复算矩阵点积。",
+      "minutes": 9,
+      "article": "content/88-transformer-20.md",
+      "publishAt": "2026-12-21T21:00:00+08:00",
+      "reviewedHash": "dcfc750d9c7aac7116587c76b0af2dc11bb14dfe221fe441d5032bb41b8d2000",
+      "files": [
+        "content/88-transformer-20.md",
+        "content/transformer-data/transformer-20.json",
+        "content/transformer-data/license-gpt-oss.txt"
+      ],
+      "reviewedAt": "2026-11-19T12:24:18.726Z"
+    },
+    {
+      "number": 89,
+      "slug": "transformer-21",
+      "title": "Qwen3.5 复用前缀时还要带上什么",
+      "summary": "跑 Qwen3.5 前四层，复算完整状态和残缺状态对前缀缓存的影响。",
+      "minutes": 10,
+      "article": "content/89-transformer-21.md",
+      "publishAt": "2026-12-22T21:00:00+08:00",
+      "reviewedHash": "8f9c874c7d6190c57d4be7f5f1209ce52d42ef2417066f68412a226c523e29e7",
+      "files": [
+        "content/89-transformer-21.md",
+        "content/transformer-data/transformer-21.json"
+      ],
+      "reviewedAt": "2026-11-19T12:24:18.765Z"
     }
   ]
 }
