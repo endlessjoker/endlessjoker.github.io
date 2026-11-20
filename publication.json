@@ -1275,6 +1275,66 @@
         "content/transformer-data/transformer-21.json"
       ],
       "reviewedAt": "2026-11-19T12:24:18.765Z"
+    },
+    {
+      "number": 90,
+      "slug": "transformer-22",
+      "title": "Hy4 Flash 的 IndexPool 怎样找历史",
+      "summary": "用混元首层权重复算四个 token 怎样合成一条索引，再从选中组里读 KV。",
+      "minutes": 9,
+      "article": "content/90-transformer-22.md",
+      "publishAt": "2026-12-23T21:00:00+08:00",
+      "reviewedHash": "f63d7c89d7f63b0b8828c011e4400d43f4de3b3063b9a049fdbfa15032bb338a",
+      "files": [
+        "content/90-transformer-22.md",
+        "content/transformer-data/transformer-22.json"
+      ],
+      "reviewedAt": "2026-11-20T11:30:27.514Z"
+    },
+    {
+      "number": 91,
+      "slug": "transformer-23",
+      "title": "DFly2 为什么连主模型选好的位置也借",
+      "summary": "核对五个草稿层的共享关系，用真实权重算一个头怎样读取借来的历史。",
+      "minutes": 10,
+      "article": "content/91-transformer-23.md",
+      "publishAt": "2026-12-24T21:00:00+08:00",
+      "reviewedHash": "ca26edb4b000efeb6a936f7b3a7d8668418ff560f1835306c78a754ee3ab7397",
+      "files": [
+        "content/91-transformer-23.md",
+        "content/transformer-data/transformer-23.json"
+      ],
+      "reviewedAt": "2026-11-20T11:30:27.564Z"
+    },
+    {
+      "number": 92,
+      "slug": "transformer-24",
+      "title": "Hy4 Flash 的 LatentMoE 把专家入口砍半",
+      "summary": "复算一位入选专家对路由分支的贡献，再核算降维节省的乘加次数。",
+      "minutes": 9,
+      "article": "content/92-transformer-24.md",
+      "publishAt": "2026-12-25T21:00:00+08:00",
+      "reviewedHash": "d30cb671fae1546e4dca46eaeb233f91cbb16fa7d1d520b11f98e755c3baaeb0",
+      "files": [
+        "content/92-transformer-24.md",
+        "content/transformer-data/transformer-24.json"
+      ],
+      "reviewedAt": "2026-11-20T11:30:27.604Z"
+    },
+    {
+      "number": 93,
+      "slug": "transformer-25",
+      "title": "Hy4 Flash 的 iHC 怎样让旧残差各走原路",
+      "summary": "固定四条旧残差，实算 iHC 和 mHC 的不同路径，并复算 Engram 写入。",
+      "minutes": 9,
+      "article": "content/93-transformer-25.md",
+      "publishAt": "2026-12-26T21:00:00+08:00",
+      "reviewedHash": "6dad424d88577d444db350fc418cca36bbaa7b13a30e6a26b1e4fe32946cfaef",
+      "files": [
+        "content/93-transformer-25.md",
+        "content/transformer-data/transformer-25.json"
+      ],
+      "reviewedAt": "2026-11-20T11:30:27.650Z"
     }
   ]
 }
