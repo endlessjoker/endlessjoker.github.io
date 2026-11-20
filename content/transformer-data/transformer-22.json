@@ -1,0 +1,45 @@
+{
+  "repo": "tencent/Hy4-flash",
+  "revision": "b2498eba6a1a3f9bbcab4190bc1313a3c7010c2f",
+  "index": {
+    "pattern": "地图记录山川、城市与道路。法国的首都是巴黎。德国的首都是",
+    "pattern_tokens": 16,
+    "length": 2078,
+    "layer": 0,
+    "probed_group": 518,
+    "component": 65,
+    "gate_logits": [
+      2.329336643218994,
+      0.4861418306827545,
+      0.6334161758422852,
+      -0.7100408673286438
+    ],
+    "value_inputs": [
+      -0.04340062662959099,
+      -0.041874151676893234,
+      -0.005265333689749241,
+      -0.03491033613681793
+    ],
+    "gate_weights": [
+      0.7196285128593445,
+      0.11392499506473541,
+      0.13200168311595917,
+      0.03444478660821915
+    ],
+    "pooled": -0.037900350987911224,
+    "group_score": 10.520861625671387,
+    "last_kept_score": 5.114436149597168,
+    "first_omitted_score": 5.108686447143555,
+    "last_group": 519,
+    "last_slots": [
+      2076,
+      2077
+    ],
+    "num_groups": 512,
+    "num_complete_groups": 519,
+    "num_visible": 2046,
+    "main_max_diff_vs_dense": 4.9427151679992676e-05,
+    "main_output_0": 0.14481139183044434,
+    "main_sink_probability": 3.02779135097353e-08
+  }
+}
