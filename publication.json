@@ -1380,6 +1380,51 @@
         "content/transformer-data/transformer-28.json"
       ],
       "reviewedAt": "2026-11-21T01:35:31.848Z"
+    },
+    {
+      "number": 97,
+      "slug": "transformer-29",
+      "title": "LFM3 的七格卷积记得住多远",
+      "summary": "用 LFM3 首层真实权重，检查一个词何时滑出七格卷积。",
+      "minutes": 7,
+      "article": "content/97-transformer-29.md",
+      "publishAt": "2026-12-30T21:00:00+08:00",
+      "reviewedHash": "363cb7c93ef7d3ec6b442b7656645f12f6eab0a259da0b06cad3268c859da97a",
+      "files": [
+        "content/97-transformer-29.md",
+        "content/transformer-data/transformer-29.json"
+      ],
+      "reviewedAt": "2026-11-21T04:10:05.132Z"
+    },
+    {
+      "number": 98,
+      "slug": "transformer-30",
+      "title": "Mistral Large 4 怎样学会转快一点",
+      "summary": "改动旋转频率和查询位置，复算 Mistral 的实际注意力分数。",
+      "minutes": 7,
+      "article": "content/98-transformer-30.md",
+      "publishAt": "2026-12-31T21:00:00+08:00",
+      "reviewedHash": "7636618d48257c775a1b4b9e32fb9b9a0ac4de58f43aec52c8674f7a19418fee",
+      "files": [
+        "content/98-transformer-30.md",
+        "content/transformer-data/transformer-30.json"
+      ],
+      "reviewedAt": "2026-11-21T04:10:05.182Z"
+    },
+    {
+      "number": 99,
+      "slug": "transformer-31",
+      "title": "Nemotron 的 Mamba-2 怎样决定忘多少",
+      "summary": "复算两个真实 Mamba-2 头的衰减，查看旧记忆对读数的贡献。",
+      "minutes": 7,
+      "article": "content/99-transformer-31.md",
+      "publishAt": "2027-01-01T21:00:00+08:00",
+      "reviewedHash": "56b5a1eb19af224129ff6aa7ba539a61767aec14e19c1763adb962564a2d14a0",
+      "files": [
+        "content/99-transformer-31.md",
+        "content/transformer-data/transformer-31.json"
+      ],
+      "reviewedAt": "2026-11-21T04:10:05.226Z"
     }
   ]
 }

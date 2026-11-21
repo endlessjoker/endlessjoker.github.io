@@ -1,5 +1,5 @@
 {
-  "totalChapters": 96,
+  "totalChapters": 99,
   "chapters": [
     {
       "number": 1,
@@ -480,6 +480,21 @@
       "number": 96,
       "title": "MiMo 怎样把 80 个音频码送进一个位置",
       "focus": "Transformer 与开源大模型 · 第 28 讲"
+    },
+    {
+      "number": 97,
+      "title": "LFM3 的七格卷积记得住多远",
+      "focus": "Transformer 与开源大模型 · 第 29 讲"
+    },
+    {
+      "number": 98,
+      "title": "Mistral Large 4 怎样学会转快一点",
+      "focus": "Transformer 与开源大模型 · 第 30 讲"
+    },
+    {
+      "number": 99,
+      "title": "Nemotron 的 Mamba-2 怎样决定忘多少",
+      "focus": "Transformer 与开源大模型 · 第 31 讲"
     }
   ]
 }
