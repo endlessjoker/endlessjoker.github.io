@@ -1,5 +1,5 @@
 {
-  "totalChapters": 93,
+  "totalChapters": 96,
   "chapters": [
     {
       "number": 1,
@@ -465,6 +465,21 @@
       "number": 93,
       "title": "Hy4 Flash 的 iHC 怎样让旧残差各走原路",
       "focus": "Transformer 与开源大模型 · 第 25 讲"
+    },
+    {
+      "number": 94,
+      "title": "Kimi K3.1 Pro 的残差怎样回看前面的层",
+      "focus": "Transformer 与开源大模型 · 第 26 讲"
+    },
+    {
+      "number": 95,
+      "title": "MiniMax M3.1 Flash 怎样凭一个词挑中整段",
+      "focus": "Transformer 与开源大模型 · 第 27 讲"
+    },
+    {
+      "number": 96,
+      "title": "MiMo 怎样把 80 个音频码送进一个位置",
+      "focus": "Transformer 与开源大模型 · 第 28 讲"
     }
   ]
 }
