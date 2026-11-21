@@ -1425,6 +1425,51 @@
         "content/transformer-data/transformer-31.json"
       ],
       "reviewedAt": "2026-11-21T04:10:05.226Z"
+    },
+    {
+      "number": 100,
+      "slug": "transformer-32",
+      "title": "Olala 的 Mamba-3 为什么在这一步补写上一步",
+      "summary": "用 Olala 首层权重拆开 Mamba-3 更新里的三项，复算四路写入。",
+      "minutes": 7,
+      "article": "content/100-transformer-32.md",
+      "publishAt": "2027-01-02T21:00:00+08:00",
+      "reviewedHash": "1b08d2c4fd70d624ddc88ffd14f1b2969daf4b76730a676a8963e27c9f160d36",
+      "files": [
+        "content/100-transformer-32.md",
+        "content/transformer-data/transformer-32.json"
+      ],
+      "reviewedAt": "2026-11-21T05:51:05.390Z"
+    },
+    {
+      "number": 101,
+      "slug": "transformer-33",
+      "title": "Olala 的注意力权重为什么会是负数",
+      "summary": "从真实 TPA 权重复算共享 V，再看两个正权重如何相减成负数。",
+      "minutes": 7,
+      "article": "content/101-transformer-33.md",
+      "publishAt": "2027-01-03T21:00:00+08:00",
+      "reviewedHash": "386408e7a8eaacbbab4439b086271d05472e66d50d3a2d63520a0da9d2ed6628",
+      "files": [
+        "content/101-transformer-33.md",
+        "content/transformer-data/transformer-33.json"
+      ],
+      "reviewedAt": "2026-11-21T05:51:05.461Z"
+    },
+    {
+      "number": 102,
+      "slug": "transformer-34",
+      "title": "Dory 同一段权重跑两遍，KV 存几份",
+      "summary": "用 Dory 循环块的真实权重对照两种 KV 缓存，再复算 32K 容量。",
+      "minutes": 7,
+      "article": "content/102-transformer-34.md",
+      "publishAt": "2027-01-04T21:00:00+08:00",
+      "reviewedHash": "07a80c49e8e7bd4457c69a667c7e6d77e6fb28df9619cde70c18db1971e70d55",
+      "files": [
+        "content/102-transformer-34.md",
+        "content/transformer-data/transformer-34.json"
+      ],
+      "reviewedAt": "2026-11-21T05:51:05.524Z"
     }
   ]
 }

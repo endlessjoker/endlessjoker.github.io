@@ -141,6 +141,9 @@ site/pytorch.md
 !content/97-transformer-29.md
 !content/98-transformer-30.md
 !content/99-transformer-31.md
+!content/100-transformer-32.md
+!content/101-transformer-33.md
+!content/102-transformer-34.md
 
 !content/transformer-data/
 content/transformer-data/*
@@ -165,6 +168,9 @@ content/transformer-data/*
 !content/transformer-data/transformer-29.json
 !content/transformer-data/transformer-30.json
 !content/transformer-data/transformer-31.json
+!content/transformer-data/transformer-32.json
+!content/transformer-data/transformer-33.json
+!content/transformer-data/transformer-34.json
 !content/transformer-data/license-gpt-oss.txt
 !content/transformer-data/license-qwen3.txt
 !content/transformer-data/license-qwen35.txt
