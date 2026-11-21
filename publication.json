@@ -1335,6 +1335,51 @@
         "content/transformer-data/transformer-25.json"
       ],
       "reviewedAt": "2026-11-20T11:30:27.650Z"
+    },
+    {
+      "number": 94,
+      "slug": "transformer-26",
+      "title": "Kimi K3.1 Pro 的残差怎样回看前面的层",
+      "summary": "复算两组真实 AttnRes 权重怎样给同一批残差打分。",
+      "minutes": 7,
+      "article": "content/94-transformer-26.md",
+      "publishAt": "2026-12-27T21:00:00+08:00",
+      "reviewedHash": "7146e520d47fcdf497764a5fd9a209179d5a6e807427fdee9326c99c39c025a2",
+      "files": [
+        "content/94-transformer-26.md",
+        "content/transformer-data/transformer-26.json"
+      ],
+      "reviewedAt": "2026-11-21T01:35:31.797Z"
+    },
+    {
+      "number": 95,
+      "slug": "transformer-27",
+      "title": "MiniMax M3.1 Flash 怎样凭一个词挑中整段",
+      "summary": "用首层 MXFP8 权重算出两组历史清单，再比较三个主注意力头。",
+      "minutes": 7,
+      "article": "content/95-transformer-27.md",
+      "publishAt": "2026-12-28T21:00:00+08:00",
+      "reviewedHash": "d043b5e783703d269d180b52a5124bbd29ac1a9bfe64e2376e69db99d0c9ba84",
+      "files": [
+        "content/95-transformer-27.md",
+        "content/transformer-data/transformer-27.json"
+      ],
+      "reviewedAt": "2026-11-21T01:34:36.767Z"
+    },
+    {
+      "number": 96,
+      "slug": "transformer-28",
+      "title": "MiMo 怎样把 80 个音频码送进一个位置",
+      "summary": "跑完真实的 20 级残差向量量化，复算四帧音频怎样进入语言模型。",
+      "minutes": 7,
+      "article": "content/96-transformer-28.md",
+      "publishAt": "2026-12-29T21:00:00+08:00",
+      "reviewedHash": "006900c7e4bdeb134548534ba573414652b1dfc095924e3835261b2fac1040a0",
+      "files": [
+        "content/96-transformer-28.md",
+        "content/transformer-data/transformer-28.json"
+      ],
+      "reviewedAt": "2026-11-21T01:35:31.848Z"
     }
   ]
 }
