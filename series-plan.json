@@ -1,5 +1,5 @@
 {
-  "totalChapters": 99,
+  "totalChapters": 102,
   "chapters": [
     {
       "number": 1,
@@ -495,6 +495,21 @@
       "number": 99,
       "title": "Nemotron 的 Mamba-2 怎样决定忘多少",
       "focus": "Transformer 与开源大模型 · 第 31 讲"
+    },
+    {
+      "number": 100,
+      "title": "Olala 的 Mamba-3 为什么在这一步补写上一步",
+      "focus": "Transformer 与开源大模型 · 第 32 讲"
+    },
+    {
+      "number": 101,
+      "title": "Olala 的注意力权重为什么会是负数",
+      "focus": "Transformer 与开源大模型 · 第 33 讲"
+    },
+    {
+      "number": 102,
+      "title": "Dory 同一段权重跑两遍，KV 存几份",
+      "focus": "Transformer 与开源大模型 · 第 34 讲"
     }
   ]
 }
