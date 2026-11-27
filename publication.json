@@ -1470,6 +1470,51 @@
         "content/transformer-data/transformer-34.json"
       ],
       "reviewedAt": "2026-11-21T05:51:05.524Z"
+    },
+    {
+      "number": 103,
+      "slug": "transformer-35",
+      "title": "WePocketModel 怎样把 1024 个视觉位置装进 512 个 token",
+      "summary": "从 WePocketModel 的 MGVB 权重算一个区域怎样读入边缘，再池化成一个 token。",
+      "minutes": 7,
+      "article": "content/103-transformer-35.md",
+      "publishAt": "2027-01-05T21:00:00+08:00",
+      "reviewedHash": "010777759a03dfe35dabfdd438f51e4b65fc49b7aaf0f8225b89273e480f2179",
+      "files": [
+        "content/103-transformer-35.md",
+        "content/transformer-data/transformer-35.json"
+      ],
+      "reviewedAt": "2026-11-27T05:49:01.721Z"
+    },
+    {
+      "number": 104,
+      "slug": "transformer-36",
+      "title": "ERNIE 5.5 的两个路由器怎样挑十个专家",
+      "summary": "用 ERNIE 5.5 Flash 的两套路由权重复算十个专家的入选名次和系数。",
+      "minutes": 7,
+      "article": "content/104-transformer-36.md",
+      "publishAt": "2027-01-06T21:00:00+08:00",
+      "reviewedHash": "a0dc2e704d4588ce57e58905cd99ab2b8d1791294e35e3b0a9d31865e79c3630",
+      "files": [
+        "content/104-transformer-36.md",
+        "content/transformer-data/transformer-36.json"
+      ],
+      "reviewedAt": "2026-11-27T05:49:01.768Z"
+    },
+    {
+      "number": 105,
+      "slug": "transformer-37",
+      "title": "MiniMax H3 Image 为什么每一步都换输出头",
+      "summary": "固定 DiT 输出，用 MiniMax 发布的六个 PDD 头算一条潜变量的更新。",
+      "minutes": 7,
+      "article": "content/105-transformer-37.md",
+      "publishAt": "2027-01-07T21:00:00+08:00",
+      "reviewedHash": "f6df244fb695353fe339fa8fb239cc2a9916b112cabfed17d2840f6f146fa030",
+      "files": [
+        "content/105-transformer-37.md",
+        "content/transformer-data/transformer-37.json"
+      ],
+      "reviewedAt": "2026-11-27T05:49:01.804Z"
     }
   ]
 }
