@@ -1,5 +1,5 @@
 {
-  "totalChapters": 102,
+  "totalChapters": 105,
   "chapters": [
     {
       "number": 1,
@@ -510,6 +510,21 @@
       "number": 102,
       "title": "Dory 同一段权重跑两遍，KV 存几份",
       "focus": "Transformer 与开源大模型 · 第 34 讲"
+    },
+    {
+      "number": 103,
+      "title": "WePocketModel 怎样把 1024 个视觉位置装进 512 个 token",
+      "focus": "Transformer 与开源大模型 · 第 35 讲"
+    },
+    {
+      "number": 104,
+      "title": "ERNIE 5.5 的两个路由器怎样挑十个专家",
+      "focus": "Transformer 与开源大模型 · 第 36 讲"
+    },
+    {
+      "number": 105,
+      "title": "MiniMax H3 Image 为什么每一步都换输出头",
+      "focus": "Transformer 与开源大模型 · 第 37 讲"
     }
   ]
 }
